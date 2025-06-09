@@ -26,13 +26,6 @@
             </div>
             <div id="header-links-container">
                 <ul>
-                    <!--
-                    <li id="icon-logo" title="Advacruit">
-                        <a href="index.php">
-                            <i class="fa-solid fa-street-view fa-2xl"></i>
-                        </a>
-                    </li>
-                    -->
                     <li title="About">
                         <a href="">
                             About
@@ -48,9 +41,9 @@
                             Employers
                         </a>
                     </li>
-                    <li title="Contact">
+                    <li title="Careers">
                         <a href="">
-                            Contact
+                            Careers
                         </a>
                     </li>
                     <li title="Testimonials">
@@ -61,6 +54,11 @@
                     <li title="Blog">
                         <a href="">
                             Blog
+                        </a>
+                    </li>
+                    <li title="Contact">
+                        <a href="">
+                            Contact
                         </a>
                     </li>
                 </ul>

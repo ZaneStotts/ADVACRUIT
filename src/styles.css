@@ -19,14 +19,14 @@ Header styles
 
 nav {
     display: flex;
-    flex-direction: row;
 }
 
 #icon-logo-container {
     border: solid 2px black;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
 }
 
 #icon-logo {
@@ -40,11 +40,15 @@ h6 {
     font-family: "Zen Dots", monospace;
     font-size: 1rem;
     letter-spacing: 1px;
+    padding: 10px 0 0 0;
     text-transform: uppercase;
 }
 
 #header-links-container {
     border: solid 2px black;
+    height: 100%;
+    text-align: right;
+    width: 100%;
 }
 
 ul {
@@ -53,7 +57,12 @@ ul {
     list-style-type: none;
 }
 
+li {
+    display: inline;
+}
+
 li a {
     color: var(--text-color);
+    padding: 10px;
     text-decoration: none;
 }
