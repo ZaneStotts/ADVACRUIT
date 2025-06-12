@@ -44,11 +44,11 @@ h6 {
     letter-spacing: 1px;
     padding: 10px 0 0 0;
     text-transform: uppercase;
+    user-select: none;
 }
 
 #header-links-container {
     background-color: var(--background-color);
-    border-radius: 0 10px 10px 0;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -69,5 +69,21 @@ li {
 li a {
     color: var(--text-color);
     padding: 10px 0 10px 0;
+    text-decoration: none;
+}
+
+#social-links-container {
+    align-items: center;
+    background-color: var(--background-color);
+    border-radius: 0 10px 10px 0;
+    color: var(--text-color);
+    display: grid;
+    font-size: 1.5rem;
+    grid-template-columns: 50px 50px;
+    text-align: center;
+}
+
+#social-links-container a {
+    color: var(--text-color);
     text-decoration: none;
 }

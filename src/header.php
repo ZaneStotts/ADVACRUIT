@@ -63,6 +63,20 @@
                     </li>
                 </ul>
             </div>
+            <div id="social-links-container">
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-square-instagram fa-xl"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-square-threads fa-xl"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-square-x-twitter fa-xl"></i>
+                </a>
+            </div>
         </nav>
     </header>
 </html>
