@@ -79,11 +79,13 @@ li a {
     color: var(--text-color);
     display: grid;
     font-size: 1.5rem;
-    grid-template-columns: 50px 50px;
+    grid-template-columns: auto auto;
+    padding: 10px 10px 10px 10px;
     text-align: center;
 }
 
 #social-links-container a {
     color: var(--text-color);
+    margin: 0 7px 0px 7px;
     text-decoration: none;
 }
