@@ -17,8 +17,11 @@
     <header>
         <nav>
             <div id="icon-logo-container">
-                <a id="icon-logo" href="index.php">
+                <a id="icon-logo" href="index.php" title="Home">
+                    <!--
                     <i class="fa-solid fa-street-view fa-2xl"></i>
+                    -->
+                    <i class="fa-solid fa-handshake fa-2xl"></i>
                 </a>
                 <h6>
                     <b>Advacruit</b>
@@ -64,16 +67,16 @@
                 </ul>
             </div>
             <div id="social-links-container">
-                <a href="" target="_blank">
+                <a href="" target="_blank" title="Instagram">
                     <i class="fa-brands fa-square-instagram fa-xl"></i>
                 </a>
-                <a href="" target="_blank">
+                <a href="" target="_blank" title="LinkedIn">
                     <i class="fa-brands fa-linkedin fa-xl"></i>
                 </a>
-                <a href="" target="_blank">
+                <a href="" target="_blank" title="Threads">
                     <i class="fa-brands fa-square-threads fa-xl"></i>
                 </a>
-                <a href="" target="_blank">
+                <a href="" target="_blank" title="X">
                     <i class="fa-brands fa-square-x-twitter fa-xl"></i>
                 </a>
             </div>

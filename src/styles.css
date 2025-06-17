@@ -27,7 +27,7 @@ nav {
     border-radius: 10px 0 0 10px;
     display: flex;
     flex-direction: column;
-    padding: 15px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     text-align: center;
 }
 
@@ -42,7 +42,6 @@ h6 {
     font-family: "Zen Dots", monospace;
     font-size: 1rem;
     letter-spacing: 1px;
-    padding: 10px 0 0 0;
     text-transform: uppercase;
     user-select: none;
 }
@@ -56,7 +55,7 @@ h6 {
 
 ul {
     font-family: "Varela Round", Verdana;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 1px;
     list-style-type: none;
     max-width: 100%;
@@ -77,15 +76,15 @@ li a {
     background-color: var(--background-color);
     border-radius: 0 10px 10px 0;
     color: var(--text-color);
+    column-gap: 11px;
     display: grid;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     grid-template-columns: auto auto;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 15px 10px 10px;
     text-align: center;
 }
 
 #social-links-container a {
     color: var(--text-color);
-    margin: 0 7px 0px 7px;
     text-decoration: none;
 }
