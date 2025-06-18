@@ -47,15 +47,16 @@ h6 {
 }
 
 #header-links-container {
+    align-content: center;
     background-color: var(--background-color);
-    display: flex;
-    justify-content: space-between;
     width: 100%;
 }
 
 ul {
+    display: flex;
     font-family: "Varela Round", Verdana;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    justify-content: space-around;
     letter-spacing: 1px;
     list-style-type: none;
     max-width: 100%;
@@ -63,6 +64,7 @@ ul {
 
 li {
     display: inline;
+    text-align: left;
 }
 
 li a {
@@ -87,4 +89,12 @@ li a {
 #social-links-container a {
     color: var(--text-color);
     text-decoration: none;
+}
+
+#social-links-container i {
+    transition: 0.2s;
+}
+
+#social-links-container i:hover {
+    transform: scale(1.2);
 }
