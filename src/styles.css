@@ -27,7 +27,7 @@ nav {
     border-radius: 10px 0 0 10px;
     display: flex;
     flex-direction: column;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 15px 10px 15px;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ nav {
     padding: 10px;
 }
 
-h6 {
+#icon-logo-container h6 {
     color: var(--text-color);
     font-family: "Zen Dots", monospace;
     font-size: 1rem;
@@ -52,7 +52,7 @@ h6 {
     width: 100%;
 }
 
-ul {
+#header-links-container ul {
     display: flex;
     font-family: "Varela Round", Verdana;
     font-size: 1rem;
@@ -60,21 +60,26 @@ ul {
     justify-content: space-around;
     letter-spacing: 1px;
     list-style-type: none;
-    max-width: 100%;
+    width: 100%;
 }
 
-li {
-    display: flex;
+#header-links-container li {
+    flex: 1;
     text-transform: uppercase;
 }
 
-li a {
+#header-links-container li a {
     align-content: center;
     color: var(--text-color);
+    display: block;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
     text-decoration: none;
+    transition: 0.2s;
 }
 
-li a:hover {
+#header-links-container li a:hover {
     background-color: var(--text-color);
     color: var(--background-color);
 }
@@ -88,7 +93,7 @@ li a:hover {
     display: grid;
     font-size: 1.3rem;
     grid-template-columns: auto auto;
-    padding: 10px 15px 10px 10px;
+    padding: 10px 15px 10px 15px;
     text-align: center;
 }
 
