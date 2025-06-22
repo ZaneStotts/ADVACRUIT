@@ -49,9 +49,9 @@
                             Careers
                         </a>
                     </li>
-                    <li title="Testimonials">
+                    <li title="Reviews">
                         <a href="">
-                            Testimonials
+                            Reviews
                         </a>
                     </li>
                     <li title="Blog">
@@ -64,21 +64,30 @@
                             Contact
                         </a>
                     </li>
+                    <li title="Login">
+                        <a href="">
+                            Login
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div id="social-links-container">
-                <a href="" target="_blank" title="Instagram">
-                    <i class="fa-brands fa-square-instagram fa-xl"></i>
-                </a>
                 <a href="" target="_blank" title="LinkedIn">
                     <i class="fa-brands fa-linkedin fa-xl"></i>
                 </a>
                 <a href="" target="_blank" title="Threads">
                     <i class="fa-brands fa-square-threads fa-xl"></i>
                 </a>
+                
+                <a href="" target="_blank" title="Instagram">
+                    <i class="fa-brands fa-square-instagram fa-xl"></i>
+                </a>
                 <a href="" target="_blank" title="X">
                     <i class="fa-brands fa-square-x-twitter fa-xl"></i>
                 </a>
+            </div>
+            <div id="icon-collapse">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </nav>
     </header>

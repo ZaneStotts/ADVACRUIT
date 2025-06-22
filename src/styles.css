@@ -17,7 +17,7 @@ body {
 Header styles
 */
 
-nav {
+header nav {
     display: flex;
     padding: 10px 10px 10px 10px;
 }
@@ -27,13 +27,13 @@ nav {
     border-radius: 10px 0 0 10px;
     display: flex;
     flex-direction: column;
-    padding: 10px 15px 10px 15px;
+    padding: 5px 10px 5px 10px;
     text-align: center;
 }
 
 #icon-logo {
     color: var(--text-color);
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 10px;
 }
 
@@ -89,11 +89,11 @@ nav {
     background-color: var(--background-color);
     border-radius: 0 10px 10px 0;
     color: var(--text-color);
-    column-gap: 11px;
+    column-gap: 7px;
     display: grid;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     grid-template-columns: auto auto;
-    padding: 10px 15px 10px 15px;
+    padding: 7px 10px 5px 10px;
     text-align: center;
 }
 
@@ -108,4 +108,30 @@ nav {
 
 #social-links-container i:hover {
     transform: scale(1.2);
+}
+
+/*
+Header media queries
+*/
+
+@media screen and (max-width: 1500px) {
+    #header-links-container ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #header-links-container {
+        border-radius: 0 10px 10px 0;
+    }
+
+    #social-links-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
 }
