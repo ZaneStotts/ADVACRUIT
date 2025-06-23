@@ -18,9 +18,6 @@
         <nav>
             <div id="icon-logo-container">
                 <a id="icon-logo" href="index.php" title="Home">
-                    <!--
-                    <i class="fa-solid fa-street-view fa-2xl"></i>
-                    -->
                     <i class="fa-solid fa-handshake fa-2xl"></i>
                 </a>
                 <h6>
@@ -86,8 +83,10 @@
                     <i class="fa-brands fa-square-x-twitter fa-xl"></i>
                 </a>
             </div>
-            <div id="icon-collapse">
-                <i class="fa-solid fa-bars"></i>
+            <div id="icon-menu-collapse">
+                <button title="Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
         </nav>
     </header>

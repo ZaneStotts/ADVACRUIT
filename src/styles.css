@@ -103,11 +103,36 @@ header nav {
 }
 
 #social-links-container i {
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 #social-links-container i:hover {
     transform: scale(1.2);
+}
+
+#icon-menu-collapse {
+    align-content: center;
+    background-color: var(--background-color);
+    border-radius: 0 10px 10px 0;
+    display: none;
+    padding: 0 20px 0 10px;
+    text-align: right;
+}
+
+#icon-menu-collapse button {
+    background-color: var(--background-color);
+    border: none;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+#icon-menu-collapse i {
+    color: var(--text-color);
+    transition: 0.2s;
+}
+
+#icon-menu-collapse i:hover {
+    transform: scale(1.1);
 }
 
 /*
@@ -133,5 +158,12 @@ Header media queries
 }
 
 @media screen and (max-width: 800px) {
+    #header-links-container {
+        display: none;
+    }
 
+    #icon-menu-collapse {
+        display: block;
+        width: 100%;
+    }
 }
