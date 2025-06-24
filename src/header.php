@@ -16,7 +16,7 @@
     </head>
     <header>
         <nav>
-            <div id="icon-logo-container">
+            <div class="icon-logo-container">
                 <a id="icon-logo" href="index.php" title="Home">
                     <i class="fa-solid fa-handshake fa-2xl"></i>
                 </a>
@@ -24,7 +24,7 @@
                     <b>Advacruit</b>
                 </h6>
             </div>
-            <div id="header-links-container">
+            <div class="header-links-container">
                 <ul>
                     <li title="About">
                         <a href="">
@@ -68,7 +68,7 @@
                     </li>
                 </ul>
             </div>
-            <div id="social-links-container">
+            <div class="social-links-container">
                 <a href="" target="_blank" title="LinkedIn">
                     <i class="fa-brands fa-linkedin fa-xl"></i>
                 </a>
@@ -83,9 +83,12 @@
                     <i class="fa-brands fa-square-x-twitter fa-xl"></i>
                 </a>
             </div>
-            <div id="icon-menu-collapse">
-                <button title="Menu">
-                    <i class="fa-solid fa-bars"></i>
+            <div class="responsive-menu-collapse">
+                <button id="icon-open-menu">
+                    <i class="fa-solid fa-square-caret-down"></i>
+                </button>
+                <button id="icon-close-menu">
+                    <i class="fa-solid fa-square-xmark"></i>
                 </button>
             </div>
         </nav>
