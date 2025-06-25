@@ -24,7 +24,7 @@
                     <b>Advacruit</b>
                 </h6>
             </div>
-            <div class="header-links-container">
+            <div class="header-links-container" id="header-links">
                 <ul>
                     <li title="About">
                         <a href="">
@@ -88,9 +88,10 @@
                     <i class="fa-solid fa-square-caret-down"></i>
                 </button>
                 <button id="icon-close-menu">
-                    <i class="fa-solid fa-square-xmark"></i>
+                    <i class="fa-solid fa-square-caret-up"></i>
                 </button>
             </div>
         </nav>
     </header>
+    <script src="./header-javascript.php" defer></script>
 </html>

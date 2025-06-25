@@ -132,7 +132,11 @@ header nav {
 }
 
 .responsive-menu-collapse i:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+#icon-close-menu {
+    display: none;
 }
 
 /*
