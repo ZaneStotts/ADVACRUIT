@@ -21,6 +21,7 @@ header nav {
     display: flex;
     padding: 10px 10px 10px 10px;
     position: fixed;
+    width: 100%;
 }
 
 .icon-logo-container {
@@ -71,7 +72,7 @@ header nav {
 
 .header-links-container li a {
     align-content: center;
-    color: black; /* Change this later */
+    color: var(--text-color);
     display: block;
     height: 100%;
     justify-content: center;
@@ -138,11 +139,7 @@ header nav {
 
 #icon-open-menu {
     cursor: pointer;
-    display: block;
-}
-
-#icon-open-menu.open {
-    display: none;
+    //display: block;
 }
 
 #icon-close-menu {
@@ -150,9 +147,6 @@ header nav {
     display: none;
 }
 
-#icon-close-menu.close {
-    display: block;
-}
 
 /*
 Header media queries
@@ -177,18 +171,8 @@ Header media queries
 }
 
 @media screen and (max-width: 800px) {
-
     .header-links-container {
         display: none;
-    }
-
-    .header-links-container.open {
-        display: block;
-    }
-
-    .header-links-container ul {
-        width: 100%;
-        flex-direction: column;
     }
 
     .responsive-menu-collapse {
