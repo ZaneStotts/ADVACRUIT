@@ -1,8 +1,15 @@
-const iconOpenMenu = document.getElementById("icon-open-menu");
+const openButton = document.getElementById("icon-open-menu");
+const closeButton = document.getElementById("icon-close-menu");
+const headerLinks = document.getElementById("header-links");
 
-const headerLinksContainer = document.querySelector(".header-links-container");
+openButton.addEventListener("click", () => {
+  headerLinks.classList.add("show-menu");
+  openButton.style.display = "none";
+  closeButton.style.display = "block";
+});
 
-iconOpenMenu.addEventListener("click", () => {
-    headerLinksContainer.classList.toggle("open");
-    iconOpenMenu.classList.toggle("open");
-})
+closeButton.addEventListener("click", () => {
+  headerLinks.classList.remove("show-menu");
+  closeButton.style.display = "none";
+  openButton.style.display = "block";
+});

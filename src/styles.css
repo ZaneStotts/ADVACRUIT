@@ -139,14 +139,14 @@ header nav {
 
 #icon-open-menu {
     cursor: pointer;
-    //display: block;
+    margin-left: auto;
 }
 
 #icon-close-menu {
     cursor: pointer;
     display: none;
+    margin-left: auto;
 }
-
 
 /*
 Header media queries
@@ -172,8 +172,46 @@ Header media queries
 
 @media screen and (max-width: 800px) {
     .header-links-container {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
         display: none;
+        background-color: var(--background-color);
+        z-index: 1;
+        flex-direction: column;
+        padding: 10px 0;
     }
+
+    .header-links-container {
+        display: none;
+        flex-direction: column;
+        background-color: var(--background-color);
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .header-links-container ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header-links-container li {
+        width: 100%;
+    }
+
+    .header-links-container li a {
+        display: block;
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+
+    .header-links-container.show-menu {
+        display: block;
+    }
+
 
     .responsive-menu-collapse {
         display: block;
