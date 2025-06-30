@@ -172,23 +172,20 @@ Header media queries
 
 @media screen and (max-width: 800px) {
     .header-links-container {
+        background-color: var(--background-color);
+        border-radius: 10px 10px 10px 10px;
+        /*display: none;*/
+        flex-direction: column;
         position: absolute;
+        left: 10px;
+        right: 10px;
         top: 100%;
-        left: 0;
-        right: 0;
-        display: none;
-        background-color: var(--background-color);
+        width: auto;
         z-index: 1;
-        flex-direction: column;
-        padding: 10px 0;
-    }
 
-    .header-links-container {
-        display: none;
-        flex-direction: column;
-        background-color: var(--background-color);
-        width: 100%;
-        padding: 10px 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out/*, padding 0.4s ease-in-out*/;
     }
 
     .header-links-container ul {
@@ -203,15 +200,15 @@ Header media queries
 
     .header-links-container li a {
         display: block;
-        width: 100%;
         padding: 10px 0px 10px 0px;
+        width: 100%;
         text-align: center;
     }
 
     .header-links-container.show-menu {
-        display: block;
+        /*display: block;*/
+        max-height: 500px;
     }
-
 
     .responsive-menu-collapse {
         display: block;
