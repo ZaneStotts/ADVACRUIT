@@ -26,7 +26,7 @@ if (isset($_SERVER['HTTP_X_FORWARDED_URL']) && strpos($_SERVER['HTTP_X_FORWARDED
 <body>
   <header>
     <?php
-      include "header.php";
+      include "header/header-html.php";
     ?>
   </header>
   <footer>

@@ -7,6 +7,7 @@
         <!-- Favicon (add later) -->
         <!-- Link to CSS file -->
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/header/header-css.css">
         <!-- Link to fonts: Zen Dots, Varela Round -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -93,5 +94,5 @@
             </div>
         </nav>
     </header>
-    <script src="./header-javascript.php" defer></script>
+    <script src="header/header-js.php" defer></script>
 </html>
