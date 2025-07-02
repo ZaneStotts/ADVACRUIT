@@ -15,84 +15,85 @@
         <!-- Link to Font Awesome -->
         <script src="https://kit.fontawesome.com/619bfd8718.js" crossorigin="anonymous"></script>
     </head>
-    <header>
-        <nav>
-            <div class="icon-logo-container">
-                <a id="icon-logo" href="index.php" title="Home">
-                    <i class="fa-solid fa-handshake fa-2xl"></i>
-                </a>
-                <h6>
-                    <b>Advacruit</b>
-                </h6>
-            </div>
-            <div class="header-links-container" id="header-links">
-                <ul>
-                    <li title="About">
-                        <a href="">
-                            About
-                        </a>
-                    </li>
-                    <li title="Candidates">
-                        <a href="">
-                            Candidates
-                        </a>
-                    </li>
-                    <li title="Employers">
-                        <a href="">
-                            Employers
-                        </a>
-                    </li>
-                    <li title="Careers">
-                        <a href="">
-                            Careers
-                        </a>
-                    </li>
-                    <li title="Reviews">
-                        <a href="">
-                            Reviews
-                        </a>
-                    </li>
-                    <li title="Blog">
-                        <a href="">
-                            Blog
-                        </a>
-                    </li>
-                    <li title="Contact">
-                        <a href="">
-                            Contact
-                        </a>
-                    </li>
-                    <li title="Login">
-                        <a href="">
-                            Login
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="social-links-container">
-                <a href="" target="_blank" title="LinkedIn">
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
-                </a>
-                <a href="" target="_blank" title="Threads">
-                    <i class="fa-brands fa-square-threads fa-xl"></i>
-                </a>
-                
-                <a href="" target="_blank" title="Instagram">
-                    <i class="fa-brands fa-square-instagram fa-xl"></i>
-                </a>
-                <a href="" target="_blank" title="X">
-                    <i class="fa-brands fa-square-x-twitter fa-xl"></i>
-                </a>
-            </div>
-            <div class="responsive-menu-collapse">
-                <button id="icon-open-menu">
-                    <i class="fa-solid fa-square-caret-down"></i>
-                </button>
-                <button id="icon-close-menu">
-                    <i class="fa-solid fa-square-caret-up"></i>
-                </button>
-            </div>
-        </nav>
-    </header>
+    <body>
+        <header>
+            <nav>
+                <div class="header-icon-logo-container">
+                    <a id="header-icon-logo" href="index.php" title="Home">
+                        <i class="fa-solid fa-handshake fa-2xl"></i>
+                    </a>
+                    <h6>
+                        <b>Advacruit</b>
+                    </h6>
+                </div>
+                <div class="header-links-container" id="header-links">
+                    <ul>
+                        <li title="About">
+                            <a href="">
+                                About
+                            </a>
+                        </li>
+                        <li title="Candidates">
+                            <a href="">
+                                Candidates
+                            </a>
+                        </li>
+                        <li title="Employers">
+                            <a href="">
+                                Employers
+                            </a>
+                        </li>
+                        <li title="Careers">
+                            <a href="">
+                                Careers
+                            </a>
+                        </li>
+                        <li title="Reviews">
+                            <a href="">
+                                Reviews
+                            </a>
+                        </li>
+                        <li title="Blog">
+                            <a href="">
+                                Blog
+                            </a>
+                        </li>
+                        <li title="Contact">
+                            <a href="">
+                                Contact
+                            </a>
+                        </li>
+                        <li title="Login">
+                            <a href="">
+                                Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-links-container">
+                    <a href="" target="_blank" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin fa-xl"></i>
+                    </a>
+                    <a href="" target="_blank" title="Threads">
+                        <i class="fa-brands fa-square-threads fa-xl"></i>
+                    </a>
+                    <a href="" target="_blank" title="Instagram">
+                        <i class="fa-brands fa-square-instagram fa-xl"></i>
+                    </a>
+                    <a href="" target="_blank" title="X">
+                        <i class="fa-brands fa-square-x-twitter fa-xl"></i>
+                    </a>
+                </div>
+                <div class="responsive-menu-collapse">
+                    <button id="icon-open-menu">
+                        <i class="fa-solid fa-square-caret-down"></i>
+                    </button>
+                    <button id="icon-close-menu">
+                        <i class="fa-solid fa-square-caret-up"></i>
+                    </button>
+                </div>
+            </nav>
+        </header>
     <script src="header/header-js.php" defer></script>
+    </body>
 </html>

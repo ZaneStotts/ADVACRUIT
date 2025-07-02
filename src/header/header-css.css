@@ -9,7 +9,7 @@ header nav {
     width: 100%;
 }
 
-.icon-logo-container {
+.header-icon-logo-container {
     background-color: var(--background-color);
     border-radius: 10px 0 0 10px;
     display: flex;
@@ -18,13 +18,13 @@ header nav {
     text-align: center;
 }
 
-#icon-logo {
+#header-icon-logo {
     color: var(--text-color);
     font-size: 1.5rem;
     padding: 10px;
 }
 
-.icon-logo-container h6 {
+.header-icon-logo-container h6 {
     color: var(--text-color);
     font-family: "Zen Dots", monospace;
     font-size: 1rem;
@@ -159,7 +159,6 @@ Header media queries
     .header-links-container {
         background-color: var(--background-color);
         border-radius: 10px 10px 10px 10px;
-        /*display: none;*/
         flex-direction: column;
         position: absolute;
         left: 10px;
@@ -167,10 +166,9 @@ Header media queries
         top: 100%;
         width: auto;
         z-index: 1;
-
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.5s ease-in-out/*, padding 0.4s ease-in-out*/;
+        transition: max-height 0.5s ease-in-out;
     }
 
     .header-links-container ul {
@@ -191,7 +189,6 @@ Header media queries
     }
 
     .header-links-container.show-menu {
-        /*display: block;*/
         max-height: 500px;
     }
 

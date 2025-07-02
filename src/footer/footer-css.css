@@ -1,0 +1,36 @@
+/*
+Footer styles
+*/
+
+footer {
+    bottom: 0;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.footer-icon-logo-container {
+    background-color: var(--background-color);
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+
+#footer-icon-logo {
+    color: var(--text-color);
+    font-size: 2.1rem;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.footer-icon-logo-container h6 {
+    color: var(--text-color);
+    font-family: "Zen Dots", monospace;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    user-select: none;
+}
