@@ -22,17 +22,12 @@ if (isset($_SERVER['HTTP_X_FORWARDED_URL']) && strpos($_SERVER['HTTP_X_FORWARDED
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Zen+Dots&display=swap" rel="stylesheet">
     <!-- Link to Font Awesome -->
     <script src="https://kit.fontawesome.com/619bfd8718.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header>
+  </head>
+  <body>
     <?php
       include "header/header-html.php";
-    ?>
-  </header>
-  <footer>
-    <?php
+      include "main/main-html.php";
       include "footer/footer-html.php";
     ?>
-  </footer>
-</body>
+  </body>
 </html>
