@@ -3,10 +3,11 @@
   <head>
         <meta charset="utf-8" lang="en">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home | Advacruit</title>
+        <title>Main | Advacruit</title>
         <!-- Favicon (add later) -->
         <!-- Link to CSS file -->
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/main/main-css.css">
         <!-- Link to fonts: Zen Dots, Varela Round -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
