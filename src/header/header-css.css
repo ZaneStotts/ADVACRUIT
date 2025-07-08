@@ -4,6 +4,7 @@ Header styles
 
 header nav {
     display: flex;
+    height: 96px;
     padding: 10px 10px 10px 10px;
     position: fixed;
     width: 100%;
