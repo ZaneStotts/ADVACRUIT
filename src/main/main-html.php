@@ -16,10 +16,18 @@
         <script src="https://kit.fontawesome.com/619bfd8718.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <main>
-            <h2>
-                Advocating connections and advancing careers
-            </h2>
+        <main class="home-page-background-image">
+            <hgroup>
+                <h2>
+                    Advocating connections
+                </h2>
+                <p>
+                    &
+                </p>
+                <h2>
+                    Advancing careers
+                </h2>
+            </hgroup>
         </main>
     </body>
 </html>
