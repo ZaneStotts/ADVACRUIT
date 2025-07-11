@@ -17,23 +17,30 @@ Main styles
 
 .home-page-background-image hgroup h2 {
     align-items: center;
-    color: var(--background-color);
-    //display: flex;
-    /* Add new font family later */
-    font-size: 3rem;
+    color: var(--dark-text-color);
+    font-family: "Agdasima", Tahoma;
+    font-size: 4rem;
     letter-spacing: 1px;
-    padding: 0 15px 0 15px;
+    text-align: center;
     text-transform: uppercase;
 }
 
 .home-page-background-image hgroup p {
     align-items: center;
-    color: var(--background-color);
+    color: var(--dark-text-color);
+    display: flex;
+    font-family: "Agdasima", Tahoma;
+    font-size: 6rem;
+    font-weight: bold;
     justify-content: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
     .home-page-background-image hgroup h2 {
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+
+    .home-page-background-image hgroup p {
+        font-size: 5rem;
     }
 }
