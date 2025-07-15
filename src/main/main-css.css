@@ -9,10 +9,19 @@ Main styles
     background-repeat: no-repeat;
     background-size: auto;
     display: flex;
+    filter: blur(2px);
     justify-content: center;
     min-height: 750px; /* Must have a value or else image will not appear */
     padding: 96px 0 0 0;
     max-width: 2000px;
+}
+
+.home-page-background-image hgroup {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
 }
 
 .home-page-background-image hgroup h2 {
