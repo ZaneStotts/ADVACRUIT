@@ -19,13 +19,17 @@
         <main class="home-page-background-image">
             <hgroup>
                 <h2>
-                    Advocating connections
+                    Advocating
+                    <br>
+                    connections
                 </h2>
                 <p>
                     +
                 </p>
                 <h2>
-                    Advancing careers
+                    Advancing
+                    <br>
+                    careers
                 </h2>
             </hgroup>
         </main>

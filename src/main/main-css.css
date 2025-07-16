@@ -4,24 +4,22 @@ Main styles
 
 .home-page-background-image {
     align-items: center;
-    background-image: url("Handshake_3.png");
+    background-image: url("Handshake.png");
     background-position: center 96px;
     background-repeat: no-repeat;
     background-size: auto;
     display: flex;
-    filter: blur(2px);
     justify-content: center;
     min-height: 750px; /* Must have a value or else image will not appear */
     padding: 96px 0 0 0;
+    margin: auto;
     max-width: 2000px;
 }
 
 .home-page-background-image hgroup {
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .home-page-background-image hgroup h2 {
@@ -40,26 +38,21 @@ Main styles
     color: var(--dark-text-color);
     display: flex;
     font-family: "Barlow Condensed", Tahoma;
-    font-size: 6rem;
+    font-size: 7rem;
     justify-content: center;
+    padding: 0 50px 0 50px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
+    .home-page.background-image hgroup {
+        display: block;
+    }
+
     .home-page-background-image hgroup h2 {
         font-size: 3rem;
     }
 
     .home-page-background-image hgroup p {
         font-size: 5rem;
-    }
-}
-
-@media screen and (max-width: 470px) {
-    .home-page-background-image hgroup h2 {
-        font-size: 2rem;
-    }
-
-    .home-page-background-image hgroup p {
-        font-size: 3rem;
     }
 }
