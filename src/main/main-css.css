@@ -5,13 +5,13 @@ Main styles
 .home-page-background-image {
     align-items: center;
     background-image: url("Handshake.png");
-    background-position: center 96px;
+    background-position: center 76px;
     background-repeat: no-repeat;
     background-size: auto;
     display: flex;
     justify-content: center;
-    min-height: 750px; /* Must have a value or else image will not appear */
-    padding: 96px 0 0 0;
+    min-height: 700px; /* Must have a value or else image will not appear */
+    padding: 76px 0 0 0;
     margin: auto;
     max-width: 2000px;
 }
@@ -19,6 +19,7 @@ Main styles
 .home-page-background-image hgroup {
     align-items: center;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -40,19 +41,11 @@ Main styles
     font-family: "Barlow Condensed", Tahoma;
     font-size: 7rem;
     justify-content: center;
-    padding: 0 50px 0 50px;
+    padding: 0 60px 0 60px;
 }
 
 @media screen and (max-width: 750px) {
-    .home-page.background-image hgroup {
-        display: block;
-    }
-
-    .home-page-background-image hgroup h2 {
-        font-size: 3rem;
-    }
-
-    .home-page-background-image hgroup p {
-        font-size: 5rem;
+    .home-page-background-image hgroup {
+        flex-direction: column;
     }
 }
