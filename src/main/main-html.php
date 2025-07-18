@@ -18,6 +18,9 @@
     <body>
         <main class="home-page-background-image">
             <hgroup>
+                <h1>
+                    Our motto:
+                </h1>
                 <h2>
                     Advocating
                     <br>

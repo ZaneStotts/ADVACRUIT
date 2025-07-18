@@ -12,6 +12,7 @@ Universal styles across all pages
     --background-color: mediumpurple;
     --dark-text-color: rebeccapurple;
     --text-color: whitesmoke;
+    --text-shadow-color: black;
 }
 
 body {

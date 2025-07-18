@@ -25,27 +25,37 @@ Main styles
 
 .home-page-background-image hgroup h2 {
     align-items: center;
-    color: var(--dark-text-color);
+    color: var(--text-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 4rem;
     font-weight: normal;
     letter-spacing: -1px;
     text-align: center;
+    text-shadow: 0 0 5px var(--text-shadow-color);
     text-transform: uppercase;
 }
 
 .home-page-background-image hgroup p {
     align-items: center;
-    color: var(--dark-text-color);
+    color: var(--text-color);
     display: flex;
     font-family: "Barlow Condensed", Tahoma;
     font-size: 7rem;
     justify-content: center;
     padding: 0 60px 0 60px;
+    text-shadow: 0 0 5px var(--text-shadow-color);
 }
 
 @media screen and (max-width: 750px) {
     .home-page-background-image hgroup {
         flex-direction: column;
+    }
+
+    .home-page-background-image hgroup h2 {
+        font-size: 3rem;
+    }
+
+    .home-page-background-image hgroup p {
+        font-size: 6rem;
     }
 }
