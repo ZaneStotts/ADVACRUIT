@@ -17,10 +17,10 @@
     </head>
     <body>
         <main class="home-page-background-image">
+        <h1>
+            Our mission:
+        </h1>
             <hgroup>
-                <h1>
-                    Our motto:
-                </h1>
                 <h2>
                     Advocating
                     <br>
