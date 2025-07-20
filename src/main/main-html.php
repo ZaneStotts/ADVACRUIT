@@ -16,25 +16,74 @@
         <script src="https://kit.fontawesome.com/619bfd8718.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <main class="home-page-background-image">
-        <h1>
-            Our mission:
-        </h1>
-            <hgroup>
-                <h2>
-                    Advocating
-                    <br>
-                    connections
-                </h2>
-                <p>
-                    +
-                </p>
-                <h2>
-                    Advancing
-                    <br>
-                    careers
-                </h2>
-            </hgroup>
+        <main>
+            <section class="home-page-mission-statement">
+                <h1>
+                    Our mission:
+                </h1>
+                <hgroup>
+                    <h2>
+                        Advocating
+                        <br>
+                        connections
+                    </h2>
+                    <p>
+                        +
+                    </p>
+                    <h2>
+                        Advancing
+                        <br>
+                        careers
+                    </h2>
+                </hgroup>
+            </section>
+            <section class="home-page-how-we-work">
+                <div class="how-we-work-lists">
+                    <ul class="how-we-work-icon-list">
+                        <li>
+                            <i class="fa-solid fa-sack-dollar"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-robot"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone-slash"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-face-tired"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-file-lines"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-filter-circle-xmark"></i>
+                        </li>
+                    </ul>
+                    <ul class="how-we-work-text-list">
+                        <li>
+                            Misleading salaries
+                        </li>
+                        <li>
+                            AI chat bots
+                        </li>
+                        <li>
+                            Unresponsive management
+                        </li>
+                        <li>
+                            7 round interviews
+                        </li>
+                        <li>
+                            Fake job posts
+                        </li>
+                        <li>
+                            Biased resume filters
+                        </li>
+                    </ul>
+                </div>
+                <h3>
+                    Human recruiters
+                </h3>
+            </section>
         </main>
     </body>
 </html>

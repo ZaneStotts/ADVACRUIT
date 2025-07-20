@@ -2,7 +2,7 @@
 Main styles
 */
 
-.home-page-background-image {
+.home-page-mission-statement {
     align-items: center;
     background-image: url("Handshake.png");
     background-position: center 76px;
@@ -17,7 +17,7 @@ Main styles
     max-width: 2000px;
 }
 
-.home-page-background-image h1 {
+.home-page-mission-statement h1 {
     color: var(--background-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 3rem;
@@ -29,7 +29,7 @@ Main styles
     text-transform: uppercase;
 }
 
-.home-page-background-image hgroup {
+.home-page-mission-statement hgroup {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -37,7 +37,7 @@ Main styles
     margin: 50px 0 50px 0;
 }
 
-.home-page-background-image hgroup h2 {
+.home-page-mission-statement hgroup h2 {
     align-items: center;
     color: var(--text-color);
     font-family: "Barlow Condensed", Tahoma;
@@ -49,7 +49,7 @@ Main styles
     text-transform: uppercase;
 }
 
-.home-page-background-image hgroup p {
+.home-page-mission-statement hgroup p {
     align-items: center;
     color: var(--text-color);
     display: flex;
@@ -61,19 +61,20 @@ Main styles
 }
 
 @media screen and (max-width: 750px) {
-    .home-page-background-image h1 {
+    .home-page-mission-statement h1 {
         font-size: 2rem;
+        margin: 0 0 0 0;
     }
 
-    .home-page-background-image hgroup {
+    .home-page-mission-statement hgroup {
         flex-direction: column;
     }
 
-    .home-page-background-image hgroup h2 {
+    .home-page-mission-statement hgroup h2 {
         font-size: 3rem;
     }
 
-    .home-page-background-image hgroup p {
+    .home-page-mission-statement hgroup p {
         font-size: 6rem;
     }
 }
