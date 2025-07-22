@@ -4,14 +4,14 @@ Main styles
 
 .home-page-mission-statement {
     align-items: center;
-    background-image: url("Handshake_collage.png");
-    background-position: center center;
+    background-image: url("3Handshake.png");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh; /* Must have a value or else image will not appear */
+    height: 100vh;
     object-fit: contain;
     padding: 76px 0 0 0;
     margin: auto;
@@ -57,6 +57,18 @@ Main styles
     font-size: 7rem;
     justify-content: center;
     text-shadow: 0 0 5px var(--text-shadow-color);
+}
+
+@media screen and (max-width: 1700px) {
+    .home-page-mission-statement {
+        background-image: url("2Handshake.png");
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .home-page-mission-statement {
+        background-image: url("1Handshake.png");
+    }
 }
 
 @media screen and (max-width: 450px) {
