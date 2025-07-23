@@ -37,9 +37,9 @@
                     </h2>
                 </hgroup>
             </section>
-            <section class="home-page-how-we-work">
-                <div class="how-we-work-lists">
-                    <ul class="how-we-work-icon-list">
+            <section class="home-page-human-recruiters">
+                <div class="human-recruiters-lists">
+                    <ul class="human-recruiters-icon-list">
                         <li>
                             <i class="fa-solid fa-sack-dollar"></i>
                         </li>
@@ -50,7 +50,7 @@
                             <i class="fa-solid fa-phone-slash"></i>
                         </li>
                         <li>
-                            <i class="fa-solid fa-face-tired"></i>
+                            <i class="fa-solid fa-video"></i>
                         </li>
                         <li>
                             <i class="fa-solid fa-file-lines"></i>
@@ -59,7 +59,7 @@
                             <i class="fa-solid fa-filter-circle-xmark"></i>
                         </li>
                     </ul>
-                    <ul class="how-we-work-text-list">
+                    <ul class="human-recruiters-text-list">
                         <li>
                             Misleading salaries
                         </li>
@@ -70,7 +70,7 @@
                             Unresponsive management
                         </li>
                         <li>
-                            7 round interviews
+                            One way video interviews
                         </li>
                         <li>
                             Fake job posts

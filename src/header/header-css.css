@@ -136,7 +136,7 @@ header nav {
 }
 
 /*
-Header media queries
+Header media queries (width)
 */
 
 @media screen and (max-width: 1500px) {

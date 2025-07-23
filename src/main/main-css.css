@@ -19,12 +19,13 @@ Main styles
 }
 
 .home-page-mission-statement h1 {
-    color: var(--background-color);
+    color: var(--dark-text-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 3rem;
     font-style: italic;
     font-weight: bold;
     letter-spacing: -1px;
+    margin: 0 0 20px 0;
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
@@ -59,6 +60,15 @@ Main styles
     text-shadow: 0 0 5px var(--text-shadow-color);
 }
 
+.home-page-human-recruiters {
+    margin: auto;
+    max-width: 2000px;
+}
+
+/*
+Main media queries (width)
+*/
+
 @media screen and (max-width: 1700px) {
     .home-page-mission-statement {
         background-image: url("2Handshake.png");
@@ -83,5 +93,40 @@ Main styles
 
     .home-page-mission-statement hgroup p {
         font-size: 6rem;
+    }
+}
+
+/*
+Main media queries (height)
+*/
+
+@media screen and (max-height: 650px) {
+    .home-page-mission-statement h1 {
+        font-size: 2rem;
+        margin: 0 0 0 0;
+    }
+
+    .home-page-mission-statement hgroup h2 {
+        font-size: 3rem;
+    }
+
+    .home-page-mission-statement hgroup p {
+        font-size: 6rem;
+        margin: -20px 0 -20px 0;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .home-page-mission-statement h1 {
+        font-size: 2rem;
+        margin: 0 0 0 0;
+    }
+
+    .home-page-mission-statement hgroup h2 {
+        font-size: 2rem;
+    }
+
+    .home-page-mission-statement hgroup p {
+        font-size: 4rem;
     }
 }
