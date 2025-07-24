@@ -60,9 +60,45 @@ Main styles
     text-shadow: 0 0 5px var(--text-shadow-color);
 }
 
-.home-page-human-recruiters {
+.home-page-strike-through {
+    background-color: var(--background-color);
     margin: auto;
     max-width: 2000px;
+    padding: 20px 10px 20px 20px;
+}
+
+.strike-through-lists {
+    display: flex;
+}
+
+.strike-through-icon-list {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    line-height: 3;
+    list-style-type: none;
+    text-align: center;
+}
+
+.strike-through-text-list {
+    color: var(--text-color);
+    font-family: "Varela Round", Verdana;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 3;
+    list-style-type: none;
+    margin: 0 0 0 30px;
+}
+
+.human-recruiters i {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.human-recruiters p {
+    color: var(--text-color);
+    font-family: "Varela Round", Verdana;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
 }
 
 /*

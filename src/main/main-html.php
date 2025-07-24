@@ -37,29 +37,29 @@
                     </h2>
                 </hgroup>
             </section>
-            <section class="home-page-human-recruiters">
-                <div class="human-recruiters-lists">
-                    <ul class="human-recruiters-icon-list">
+            <section class="home-page-strike-through">
+                <div class="strike-through-lists">
+                    <ul class="strike-through-icon-list">
                         <li>
-                            <i class="fa-solid fa-sack-dollar"></i>
+                            <i class="fa-solid fa-sack-dollar fa-xl"></i>
                         </li>
                         <li>
-                            <i class="fa-solid fa-robot"></i>
+                            <i class="fa-solid fa-robot fa-xl"></i>
                         </li>
                         <li>
-                            <i class="fa-solid fa-phone-slash"></i>
+                            <i class="fa-solid fa-phone-volume fa-xl"></i>
                         </li>
                         <li>
-                            <i class="fa-solid fa-video"></i>
+                            <i class="fa-solid fa-newspaper fa-xl"></i>
                         </li>
                         <li>
-                            <i class="fa-solid fa-file-lines"></i>
+                            <i class="fa-solid fa-desktop fa-xl"></i>
                         </li>
                         <li>
-                            <i class="fa-solid fa-filter-circle-xmark"></i>
+                            <i class="fa-solid fa-filter-circle-xmark fa-xl"></i>
                         </li>
                     </ul>
-                    <ul class="human-recruiters-text-list">
+                    <ul class="strike-through-text-list">
                         <li>
                             Misleading salaries
                         </li>
@@ -70,19 +70,22 @@
                             Unresponsive management
                         </li>
                         <li>
-                            One way video interviews
+                            Fake job posts
                         </li>
                         <li>
-                            Fake job posts
+                            One way video interviews
                         </li>
                         <li>
                             Biased resume filters
                         </li>
                     </ul>
                 </div>
-                <h3>
-                    Human recruiters
-                </h3>
+                <div class="human-recruiters">
+                    <i class="fa-solid fa-user-check fa-xl"></i>
+                    <p>
+                        Human recruiters
+                    </p>
+                </div>
             </section>
         </main>
     </body>
