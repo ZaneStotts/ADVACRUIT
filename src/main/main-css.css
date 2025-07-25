@@ -22,12 +22,9 @@ Main styles
     color: var(--dark-text-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 3rem;
-    font-style: italic;
     font-weight: bold;
     letter-spacing: -1px;
-    margin: 0 0 20px 0;
     text-align: center;
-    text-decoration: underline;
     text-transform: uppercase;
 }
 
@@ -61,14 +58,33 @@ Main styles
 }
 
 .home-page-strike-through {
+    align-items: center;
     background-color: var(--background-color);
+    display: flex;
+    flex-direction: row-reverse;
     margin: auto;
     max-width: 2000px;
-    padding: 20px 10px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.home-page-tagline {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.home-page-tagline h3 {
+    color: var(--dark-text-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 3rem;
+    letter-spacing: -1px;
+    padding: 0 0 10px 0;
 }
 
 .strike-through-lists {
     display: flex;
+    flex: 0 0 auto;
+    justify-content: flex-start;
 }
 
 .strike-through-icon-list {
@@ -87,18 +103,6 @@ Main styles
     line-height: 3;
     list-style-type: none;
     margin: 0 0 0 30px;
-}
-
-.human-recruiters i {
-    color: var(--text-color);
-    font-size: 1.5rem;
-}
-
-.human-recruiters p {
-    color: var(--text-color);
-    font-family: "Varela Round", Verdana;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
 }
 
 /*
@@ -120,7 +124,6 @@ Main media queries (width)
 @media screen and (max-width: 450px) {
     .home-page-mission-statement h1 {
         font-size: 2rem;
-        margin: 0 0 0 0;
     }
 
     .home-page-mission-statement hgroup h2 {
@@ -139,7 +142,6 @@ Main media queries (height)
 @media screen and (max-height: 650px) {
     .home-page-mission-statement h1 {
         font-size: 2rem;
-        margin: 0 0 0 0;
     }
 
     .home-page-mission-statement hgroup h2 {
@@ -155,7 +157,6 @@ Main media queries (height)
 @media screen and (max-height: 450px) {
     .home-page-mission-statement h1 {
         font-size: 2rem;
-        margin: 0 0 0 0;
     }
 
     .home-page-mission-statement hgroup h2 {

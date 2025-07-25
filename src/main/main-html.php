@@ -38,6 +38,11 @@
                 </hgroup>
             </section>
             <section class="home-page-strike-through">
+                <div class="home-page-tagline">
+                    <h3>
+                        We do things here a bit differently.
+                    </h3>
+                </div>
                 <div class="strike-through-lists">
                     <ul class="strike-through-icon-list">
                         <li>
@@ -57,6 +62,9 @@
                         </li>
                         <li>
                             <i class="fa-solid fa-filter-circle-xmark fa-xl"></i>
+                        </li>
+                        <li id="human-recruiters-icon">
+                            <i class="fa-solid fa-user-check fa-xl"></i>
                         </li>
                     </ul>
                     <ul class="strike-through-text-list">
@@ -78,14 +86,19 @@
                         <li>
                             Biased resume filters
                         </li>
+                        <li id="human-recruiters-text">
+                            Human recruiters
+                        </li>
                     </ul>
                 </div>
+                <!--
                 <div class="human-recruiters">
                     <i class="fa-solid fa-user-check fa-xl"></i>
                     <p>
                         Human recruiters
                     </p>
                 </div>
+                -->
             </section>
         </main>
     </body>
