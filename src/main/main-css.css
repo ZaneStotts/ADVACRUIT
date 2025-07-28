@@ -68,23 +68,20 @@ Main styles
 }
 
 .home-page-tagline {
-    display: flex;
     flex: 1;
-    justify-content: center;
+    padding: 0 40px 0 40px;
 }
 
 .home-page-tagline h3 {
     color: var(--dark-text-color);
     font-family: "Barlow Condensed", Tahoma;
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: -1px;
-    padding: 0 0 10px 0;
+    text-align: center;
 }
 
 .strike-through-lists {
     display: flex;
-    flex: 0 0 auto;
-    justify-content: flex-start;
 }
 
 .strike-through-icon-list {
