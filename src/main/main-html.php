@@ -75,7 +75,7 @@
                             AI chat bots
                         </li>
                         <li>
-                            Unresponsive management
+                            Unresponsive managers
                         </li>
                         <li>
                             Fake job posts
