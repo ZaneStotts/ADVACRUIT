@@ -2,17 +2,33 @@
   main("Content-Type: application/javascript");
 ?>
 
-const strikeThroughTextList = document.querySelectorAll(".strike-through-text-list li:not(#human-recruiters-text)"); /* Selects all the list items in the .strike-through-text-list except the last one. */
+// Selects all the list items in the .strike-through-text-list except the last one.
+const strikeThroughTextList = document.querySelectorAll(".strike-through-text-list li:not(#human-recruiters-text)");
 
-const strikeThroughAnimation = () => { /* Defines function to handle the strike through animation. */
-    strikeThroughTextList.forEach((li) => { /* Loops through each <li> item in  */
+// Selects all the elements which will be crossed out with the strike through animation.
+const strikeThroughLines = document.querySelectorAll(".strike-through-animation");
+
+const strikeThroughAnimation = () => {
+    strikeThroughTextList.forEach((li) => {
         const rect = li.getBoundingClientRect();
         if (rect.top < window.innerHeight - 100) {
             li.classList.add("strike-through");
         }
     });
+
+    strikeThroughLines.forEach((line) => {
+        const rect = line.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+            line.classList.add("active");
+        }
+    });
+};
+
+// Defines the code to be run when function is called.
+const = initializeStrikeThroughAnimation = () => {
+    window.addEventListener("scroll", strikeThroughAnimation);
+    window.addEventListener("load", strikeThroughAnimation);
 }
 
-window.addEventListener("scroll", strikeThroughAnimation);
-
-window.addEventListener("load", strikeThroughAnimation);
+// Activates the initialization function by calling it.
+initializeStrikeThroughAnimation();
