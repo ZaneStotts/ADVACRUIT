@@ -111,12 +111,13 @@ Main styles
 .strike-through-animation::after {
     background-color: var(--dark-text-color);
     content: "";
-    height: 3px;
+    height: 5px;
     left: 0;
     position: absolute;
     top: 50%;
-    transition: width 0.5s ease-in-out;
+    transition: width 1s ease-in-out;
     transform: translateY(-50%);
+    width: 0;
 }
 
 .strike-through-animation.active::after {

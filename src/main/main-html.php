@@ -69,37 +69,30 @@
                     </ul>
                     <ul class="strike-through-text-list">
                         <li>
-                            Misleading salaries
+                            <span class="strike-through-animation">Misleading salaries</span>
                         </li>
                         <li>
-                            AI chat bots
+                            <span class="strike-through-animation">AI chat bots</span>
                         </li>
                         <li>
-                            Unresponsive managers
+                            <span class="strike-through-animation">Unresponsive managers</span>
                         </li>
                         <li>
-                            Fake job posts
+                            <span class="strike-through-animation">Fake job posts</span>
                         </li>
                         <li>
-                            One way video interviews
+                            <span class="strike-through-animation">One way video interviews</span>
                         </li>
                         <li>
-                            Biased resume filters
+                            <span class="strike-through-animation">Biased resume filters</span>
                         </li>
                         <li id="human-recruiters-text">
                             Human recruiters
                         </li>
                     </ul>
                 </div>
-                <!--
-                <div class="human-recruiters">
-                    <i class="fa-solid fa-user-check fa-xl"></i>
-                    <p>
-                        Human recruiters
-                    </p>
-                </div>
-                -->
             </section>
         </main>
+    <script src="main/main-js.php"></script>
     </body>
 </html>
