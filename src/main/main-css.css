@@ -86,7 +86,7 @@ Main styles
 
 .strike-through-icon-list {
     color: var(--text-color);
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 3;
     list-style-type: none;
     text-align: center;
@@ -95,7 +95,7 @@ Main styles
 .strike-through-text-list {
     color: var(--text-color);
     font-family: "Varela Round", Verdana;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 1px;
     line-height: 3;
     list-style-type: none;
@@ -105,11 +105,11 @@ Main styles
 
 .strike-through-animation {
     position: relative;
-    overflow: hidden;
 }
 
 .strike-through-animation::after {
     background-color: var(--dark-text-color);
+    border-radius: 50px;
     content: "";
     height: 5px;
     left: 0;
@@ -137,6 +137,12 @@ Main media queries (width)
 @media screen and (max-width: 1400px) {
     .home-page-mission-statement {
         background-image: url("1Handshake.png");
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .strike-through-icon-list, .strike-through-text-list {
+        font-size: 1.5rem;
     }
 }
 

@@ -11,14 +11,16 @@ const strikeThroughLines = document.querySelectorAll(".strike-through-animation"
 const strikeThroughAnimation = () => {
     strikeThroughTextList.forEach((li) => {
         const rect = li.getBoundingClientRect();
-        if (rect.top < window.innerHeight - 100) {
+        const liHeight = li.offsetHeight;
+        if (rect.top < window.innerHeight - liHeight / 2 - 100) {
             li.classList.add("strike-through");
         }
     });
 
     strikeThroughLines.forEach((line) => {
         const rect = line.getBoundingClientRect();
-        if (rect.top < window.innerHeight - 100) {
+        const lineHeight = line.offsetHeight;
+        if (rect.top < window.innerHeight - lineHeight / 2 - 100) {
             line.classList.add("active");
         }
     });

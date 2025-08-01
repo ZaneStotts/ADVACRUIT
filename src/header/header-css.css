@@ -5,6 +5,7 @@ Header styles
 header {
     margin: auto;
     max-width: 2000px;
+    //z-index: 1;
 }
 
 header nav {

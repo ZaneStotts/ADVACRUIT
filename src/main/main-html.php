@@ -69,22 +69,34 @@
                     </ul>
                     <ul class="strike-through-text-list">
                         <li>
-                            <span class="strike-through-animation">Misleading salaries</span>
+                            <span class="strike-through-animation">
+                                Misleading salaries
+                            </span>
                         </li>
                         <li>
-                            <span class="strike-through-animation">AI chat bots</span>
+                            <span class="strike-through-animation">
+                                AI chat bots
+                            </span>
                         </li>
                         <li>
-                            <span class="strike-through-animation">Unresponsive managers</span>
+                            <span class="strike-through-animation">
+                                Unresponsive managers
+                            </span>
                         </li>
                         <li>
-                            <span class="strike-through-animation">Fake job posts</span>
+                            <span class="strike-through-animation">
+                                Fake job posts
+                            </span>
                         </li>
                         <li>
-                            <span class="strike-through-animation">One way video interviews</span>
+                            <span class="strike-through-animation">
+                                One way video interviews
+                            </span>
                         </li>
                         <li>
-                            <span class="strike-through-animation">Biased resume filters</span>
+                            <span class="strike-through-animation">
+                                Biased resume filters
+                            </span>
                         </li>
                         <li id="human-recruiters-text">
                             Human recruiters
