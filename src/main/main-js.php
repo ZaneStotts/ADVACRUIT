@@ -8,6 +8,9 @@ const strikeThroughTextList = document.querySelectorAll(".strike-through-text-li
 // Selects all the elements which will be crossed out with the strike through animation.
 const strikeThroughLines = document.querySelectorAll(".strike-through-animation");
 
+// Selects all the elements which will be color switched along with the animation.
+const strikeThroughIconList = document.querySelectorAll(".strike-through-icon-list li");
+
 const strikeThroughAnimation = () => {
     strikeThroughTextList.forEach((li) => {
         const rect = li.getBoundingClientRect();

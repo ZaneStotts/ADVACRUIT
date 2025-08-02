@@ -59,7 +59,7 @@ Main styles
 
 .home-page-strike-through {
     align-items: center;
-    background-color: var(--background-color);
+    background-color: var(--text-color);
     display: flex;
     flex-direction: row-reverse;
     margin: auto;
@@ -75,7 +75,7 @@ Main styles
 .home-page-tagline h3 {
     color: var(--dark-text-color);
     font-family: "Barlow Condensed", Tahoma;
-    font-size: 4rem;
+    font-size: 5rem;
     letter-spacing: -1px;
     text-align: center;
 }
@@ -85,15 +85,29 @@ Main styles
 }
 
 .strike-through-icon-list {
-    color: var(--text-color);
+    color: var(--background-color);
     font-size: 2rem;
     line-height: 3;
     list-style-type: none;
     text-align: center;
 }
 
+.strike-through-icon-list li i {
+    color: var(--background-color); /* Do I need this? */
+    transition: color 1.5s ease; 
+}
+
+.strike-through-icon-list li.red-switch i {
+    color: red;
+}
+
+#human-recruiters-icon.green-switch i {
+    color: green;
+}
+
+
 .strike-through-text-list {
-    color: var(--text-color);
+    color: var(--background-color);
     font-family: "Varela Round", Verdana;
     font-size: 2rem;
     letter-spacing: 1px;
@@ -115,7 +129,7 @@ Main styles
     left: 0;
     position: absolute;
     top: 50%;
-    transition: width 1s ease-in-out;
+    transition: width 1.5s ease-in-out;
     transform: translateY(-50%);
     width: 0;
 }
@@ -146,6 +160,12 @@ Main media queries (width)
     }
 }
 
+@media screen and (max-width: 900px) {
+    .home-page-tagline h3 {
+        font-size: 4rem;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .home-page-strike-through {
         flex-direction: column;
@@ -156,6 +176,7 @@ Main media queries (width)
     }
 
     .home-page-tagline h3 {
+        font-size: 4rem;
         text-align: left;
     }
 
