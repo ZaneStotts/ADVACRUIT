@@ -63,9 +63,6 @@
                         <li>
                             <i class="fa-solid fa-filter-circle-xmark fa-xl"></i>
                         </li>
-                        <li id="human-recruiters-icon">
-                            <i class="fa-solid fa-user-check fa-xl"></i>
-                        </li>
                     </ul>
                     <ul class="strike-through-text-list">
                         <li>
@@ -80,7 +77,7 @@
                         </li>
                         <li>
                             <span class="strike-through-animation">
-                                Unresponsive managers
+                                Unresponsive recruiters
                             </span>
                         </li>
                         <li>
@@ -97,9 +94,6 @@
                             <span class="strike-through-animation">
                                 Biased resume filters
                             </span>
-                        </li>
-                        <li id="human-recruiters-text">
-                            Human recruiters
                         </li>
                     </ul>
                 </div>

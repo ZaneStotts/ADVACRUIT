@@ -27,6 +27,14 @@ const strikeThroughAnimation = () => {
             line.classList.add("active");
         }
     });
+
+    strikeThroughIconList.forEach((icon) => {
+        const rect = icon.getBoundingClientRect();
+        const iconHeight = icon.offsetHeight;
+        if (rect.top < window.innerHeight - iconHeight / 2 - 100) {
+            icon.classList.add("red-switch");
+        }
+    });
 };
 
 // Defines the code to be run when function is called.

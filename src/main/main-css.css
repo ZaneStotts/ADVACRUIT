@@ -89,20 +89,15 @@ Main styles
     font-size: 2rem;
     line-height: 3;
     list-style-type: none;
-    text-align: center;
+    text-align: center; 
 }
 
 .strike-through-icon-list li i {
-    color: var(--background-color); /* Do I need this? */
     transition: color 1.5s ease; 
 }
 
 .strike-through-icon-list li.red-switch i {
-    color: red;
-}
-
-#human-recruiters-icon.green-switch i {
-    color: green;
+    color: crimson;
 }
 
 
