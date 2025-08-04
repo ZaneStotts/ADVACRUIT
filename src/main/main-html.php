@@ -38,11 +38,6 @@
                 </hgroup>
             </section>
             <section class="home-page-strike-through">
-                <div class="home-page-tagline">
-                    <h3>
-                        We do things here a bit differently.
-                    </h3>
-                </div>
                 <div class="strike-through-lists">
                     <ul class="strike-through-icon-list">
                         <li>
@@ -96,6 +91,21 @@
                             </span>
                         </li>
                     </ul>
+                </div>
+                <div class="">
+                    <div class="home-page-tagline">
+                        <h3>
+                            We do things here a bit differently.
+                        </h3>
+                    </div>
+                    <div class="introduction-paragraph">
+                        <p>
+                            Our positions are real. Our recruiters are human. Our candidates are skilled. Our placements are fast. Our results are serious.
+                        </p>
+                        <h4>
+                            Welcome to Advacruit.
+                        </h4>
+                    </div>
                 </div>
             </section>
         </main>
