@@ -68,7 +68,6 @@ Main styles
 }
 
 .home-page-tagline {
-    flex: 1;
     padding: 0 40px 0 40px;
 }
 
@@ -133,10 +132,6 @@ Main styles
     width: 100%;
 }
 
-.introduction-paragraph {
-    flex: 1;
-}
-
 .introduction-paragraph p {
     color: var(--dark-text-color);
     font-family: "Barlow Condensed", Tahoma;
@@ -172,6 +167,10 @@ Main media queries (width)
     .strike-through-icon-list, .strike-through-text-list {
         font-size: 1.5rem;
     }
+
+    .strike-through-animation::after {
+        height: 4px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -205,6 +204,30 @@ Main media queries (width)
     }
 }
 
+@media screen and (min-width: 800px) {
+    .home-page-strike-through {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .strike-through-lists {
+        grid-row: 1 / span 3;
+    }
+
+    .introduction-paragraph {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 720px;
+        padding: 20px 40px 0 40px;
+        text-align: center;
+    }
+
+    .introduction-paragraph p {
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .home-page-mission-statement h1 {
         font-size: 2rem;
@@ -220,6 +243,14 @@ Main media queries (width)
 
     .strike-through-icon-list, .strike-through-text-list {
         font-size: 1rem;
+    }
+
+    .strike-through-animation::after {
+        height: 2px;
+    }
+
+    .introduction-paragraph p, .introduction-paragraph h4 {
+        font-size: 1.5rem;
     }
 }
 
