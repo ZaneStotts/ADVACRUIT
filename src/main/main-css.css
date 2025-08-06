@@ -64,11 +64,11 @@ Main styles
     flex-direction: row-reverse;
     margin: auto;
     max-width: 2000px;
-    padding: 20px 20px 20px 20px;
+    padding: 40px 40px 40px 40px;
 }
 
 .home-page-tagline {
-    padding: 0 40px 0 40px;
+    padding: 0 0 0 40px;
 }
 
 .home-page-tagline h3 {
@@ -147,6 +147,25 @@ Main styles
     letter-spacing: -1px;
 }
 
+.learn-more-button a {
+    background-color: var(--background-color);
+    border: 3px solid var(--dark-text-color);
+    border-radius: 50px;
+    color: var(--text-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 1.5rem;
+    padding: 10px 13px 13px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.learn-more-button a:hover {
+    background-color: var(--dark-text-color);
+    border: 3px solid var(--background-color);
+    transform: scale(1.1);
+}
+
 /*
 Main media queries (width)
 */
@@ -163,23 +182,13 @@ Main media queries (width)
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .strike-through-icon-list, .strike-through-text-list {
-        font-size: 1.5rem;
-    }
-
-    .strike-through-animation::after {
-        height: 4px;
-    }
-}
-
 @media screen and (max-width: 900px) {
     .home-page-tagline h3 {
         font-size: 4rem;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .home-page-strike-through {
         flex-direction: column;
     }
@@ -198,13 +207,16 @@ Main media queries (width)
         width: 100%;
     }
 
-    .introduction-paragraph {
-        order: 3;
-        width: 100%;
+    .strike-through-icon-list, .strike-through-text-list {
+        font-size: 1.5rem;
+    }
+
+    .strike-through-animation::after {
+        height: 4px;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .home-page-strike-through {
         display: grid;
         grid-template-columns: auto auto;
@@ -219,12 +231,18 @@ Main media queries (width)
         flex-direction: column;
         margin: auto;
         max-width: 720px;
-        padding: 20px 40px 0 40px;
+        padding: 40px 0 40px 40px;
         text-align: center;
     }
 
     .introduction-paragraph p {
         justify-content: center;
+    }
+
+    .learn-more-button {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 0 40px;
     }
 }
 

@@ -105,6 +105,11 @@
                         Welcome to Advacruit.
                     </h4>
                 </div>
+                <div class="learn-more-button">
+                    <a href=""> <!-- Add link here later -->
+                        Learn More
+                    </a>
+                </div>
             </section>
         </main>
     <script src="main/main-js.php"></script>
