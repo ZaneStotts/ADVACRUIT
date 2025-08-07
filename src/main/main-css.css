@@ -145,6 +145,7 @@ Main styles
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: -1px;
+    padding: 0 0 40px 0;
 }
 
 .learn-more-button a {
@@ -182,12 +183,6 @@ Main media queries (width)
     }
 }
 
-@media screen and (max-width: 900px) {
-    .home-page-tagline h3 {
-        font-size: 4rem;
-    }
-}
-
 @media screen and (max-width: 1000px) {
     .home-page-strike-through {
         flex-direction: column;
@@ -195,11 +190,13 @@ Main media queries (width)
 
     .home-page-tagline {
         padding: 0 0 20px 0;
+        width: 100%;
     }
 
     .home-page-tagline h3 {
         font-size: 4rem;
         text-align: left;
+        padding: 0 0 0 0;
     }
 
     .strike-through-lists {
@@ -213,6 +210,11 @@ Main media queries (width)
 
     .strike-through-animation::after {
         height: 4px;
+    }
+
+    .learn-more-button {
+        text-align: left;
+        width: 100%;
     }
 }
 
