@@ -106,7 +106,7 @@
                     </h4>
                 </div>
                 <div class="learn-more-button">
-                    <a href=""> <!-- Add link here later -->
+                    <a href="" title="Learn More"> <!-- Add link here later -->
                         Learn More
                     </a>
                 </div>
