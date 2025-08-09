@@ -146,7 +146,6 @@ Main styles
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: -1px;
-    //padding: 0 0 40px 0;
 }
 
 .learn-more-button a {
@@ -184,7 +183,7 @@ Main media queries (width)
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     .home-page-strike-through {
         flex-direction: column;
     }
@@ -195,7 +194,6 @@ Main media queries (width)
     }
 
     .home-page-tagline h3 {
-        font-size: 4rem;
         text-align: left;
         padding: 0 0 0 0;
     }
@@ -203,14 +201,6 @@ Main media queries (width)
     .strike-through-lists {
         justify-content: flex-start;
         width: 100%;
-    }
-
-    .strike-through-icon-list, .strike-through-text-list {
-        font-size: 1.5rem;
-    }
-
-    .strike-through-animation::after {
-        height: 4px;
     }
 
     .introduction-paragraph {
@@ -228,7 +218,7 @@ Main media queries (width)
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1300px) {
     .home-page-strike-through {
         display: grid;
         grid-template-columns: auto auto;
@@ -258,7 +248,21 @@ Main media queries (width)
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
+    .home-page-tagline h3 {
+        font-size: 4rem;
+    }
+
+    .strike-through-icon-list, .strike-through-text-list {
+        font-size: 1.5rem;
+    }
+
+    .strike-through-animation::after {
+        height: 4px;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .home-page-mission-statement h1 {
         font-size: 2rem;
     }
@@ -271,6 +275,10 @@ Main media queries (width)
         font-size: 6rem;
     }
 
+    .home-page-strike-through {
+        padding: 30px 30px 30px 30px;
+    }
+
     .strike-through-icon-list, .strike-through-text-list {
         font-size: 1rem;
     }
@@ -281,6 +289,11 @@ Main media queries (width)
 
     .introduction-paragraph p, .introduction-paragraph h4 {
         font-size: 1.5rem;
+    }
+
+    .learn-more-button a {
+        font-size: 1rem;
+        padding: 7px 10px 10px 10px;
     }
 }
 
