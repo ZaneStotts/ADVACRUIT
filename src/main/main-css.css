@@ -5,7 +5,7 @@ Main styles
 .home-page-mission-statement {
     align-items: center;
     background-image: url("3Handshake.png");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: auto;
     display: flex;
@@ -130,6 +130,10 @@ Main styles
 
 .strike-through-animation.active::after {
     width: 100%;
+}
+
+.introduction-paragraph {
+    line-height: 1.2;
 }
 
 .introduction-paragraph p {
