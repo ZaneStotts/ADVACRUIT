@@ -111,6 +111,91 @@
                     </a>
                 </div>
             </section>
+            <section class="home-page-companies-helped">
+                <div class="companies-helped-introduction">
+                    <h3>
+                        Companies we helped:
+                    </h3>
+                </div>
+                <div class="companies-helped-icons">
+                    <ul class="companies-helped-icon-list">
+                        <li>
+                            <i class="fa-brands fa-blogger"></i>
+                            <p>
+                                Blogger
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-flickr"></i>
+                            <p>
+                                Flickr
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-intercom"></i>
+                            <p>
+                                Intercom
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-invision"></i>
+                            <p>
+                                Invision
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-kickstarter"></i>
+                            <p>
+                                Kickstarter
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-korvue"></i>
+                            <p>
+                                Korvue
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-square-behance"></i>
+                            <p>
+                                Behance
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-square-dribbble"></i>
+                            <p>
+                                Dribbble
+                            </p>
+                        </li>
+                        <!--
+                        <li>
+                            <i class="fa-brands fa-square-figma"></i>
+                            <p>
+                                Figma
+                            </p>
+                        </li>
+                        -->
+                        <li>
+                            <i class="fa-brands fa-square-upwork"></i>
+                            <p>
+                                Upwork
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-square-vimeo"></i>
+                            <p>
+                                Vimeo
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-trello"></i>
+                            <p>
+                                Trello
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </main>
     <script src="main/main-js.php"></script>
     </body>

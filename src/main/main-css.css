@@ -171,6 +171,36 @@ Main styles
     transform: scale(1.1);
 }
 
+.home-page-companies-helped {
+    background-color: var(--dark-text-color); 
+    padding: 40px 40px 40px 40px;
+}
+
+.companies-helped-introduction h3 {
+    color: var(--text-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 5rem;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.companies-helped-icon-list {
+    display: flex;
+}
+
+.companies-helped-icon-list li {
+    list-style-type: none;
+}
+
+.companies-helped-icon-list i {
+    color: var(--background-color);
+    font-size: 5rem;
+}
+
+.companies-helped-icon-list p {
+    text-align: center;
+}
+
 /*
 Main media queries (width)
 */
