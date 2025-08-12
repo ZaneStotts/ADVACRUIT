@@ -132,6 +132,12 @@
                             </p>
                         </li>
                         <li>
+                            <i class="fa-brands fa-jxl"></i>
+                            <p>
+                                JXL
+                            </p>
+                        </li>
+                        <li>
                             <i class="fa-brands fa-intercom"></i>
                             <p>
                                 Intercom
@@ -167,14 +173,12 @@
                                 Dribbble
                             </p>
                         </li>
-                        <!--
                         <li>
-                            <i class="fa-brands fa-square-figma"></i>
+                            <i class="fa-brands fa-square-facebook"></i>
                             <p>
-                                Figma
+                                Facebook
                             </p>
                         </li>
-                        -->
                         <li>
                             <i class="fa-brands fa-square-upwork"></i>
                             <p>

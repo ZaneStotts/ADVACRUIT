@@ -172,7 +172,9 @@ Main styles
 }
 
 .home-page-companies-helped {
-    background-color: var(--dark-text-color); 
+    background-color: var(--dark-text-color);
+    margin: auto;
+    max-width: 2000px;
     padding: 40px 40px 40px 40px;
 }
 
@@ -198,6 +200,9 @@ Main styles
 }
 
 .companies-helped-icon-list p {
+    color: var(--text-color);
+    font-family: "Varela Round", Verdana;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -250,6 +255,10 @@ Main media queries (width)
         display: inline-block;
         transform-origin: left center;
     }
+
+    .companies-helped-introduction h3 {
+        text-align: left;
+    }
 }
 
 @media screen and (min-width: 1300px) {
@@ -283,7 +292,7 @@ Main media queries (width)
 }
 
 @media screen and (max-width: 800px) {
-    .home-page-tagline h3 {
+    .home-page-tagline h3, .companies-helped-introduction h3 {
         font-size: 4rem;
     }
 
