@@ -188,6 +188,9 @@ Main styles
 
 .companies-helped-icon-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0 20px 0;
 }
 
 .companies-helped-icon-list li {
@@ -197,6 +200,7 @@ Main styles
 .companies-helped-icon-list i {
     color: var(--background-color);
     font-size: 5rem;
+    padding: 30px 15px 0 15px;
 }
 
 .companies-helped-icon-list p {
@@ -219,6 +223,12 @@ Main media queries (width)
 @media screen and (max-width: 1400px) {
     .home-page-mission-statement {
         background-image: url("1Handshake.png");
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .companies-helped-icon-list {
+        justify-content: space-between;
     }
 }
 

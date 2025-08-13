@@ -144,23 +144,12 @@
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-invision"></i>
-                            <p>
-                                Invision
-                            </p>
-                        </li>
-                        <li>
                             <i class="fa-brands fa-kickstarter"></i>
                             <p>
                                 Kickstarter
                             </p>
                         </li>
-                        <li>
-                            <i class="fa-brands fa-korvue"></i>
-                            <p>
-                                Korvue
-                            </p>
-                        </li>
+                        
                         <li>
                             <i class="fa-brands fa-square-behance"></i>
                             <p>
@@ -192,9 +181,21 @@
                             </p>
                         </li>
                         <li>
+                            <i class="fa-brands fa-invision"></i>
+                            <p>
+                                Invision
+                            </p>
+                        </li>
+                        <li>
                             <i class="fa-brands fa-trello"></i>
                             <p>
                                 Trello
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-korvue"></i>
+                            <p>
+                                Korvue
                             </p>
                         </li>
                     </ul>
