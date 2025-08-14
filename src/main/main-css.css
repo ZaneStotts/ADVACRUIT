@@ -190,6 +190,7 @@ Main styles
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 -15px 0 -15px;
     padding: 20px 0 20px 0;
 }
 
@@ -207,7 +208,38 @@ Main styles
     color: var(--text-color);
     font-family: "Varela Round", Verdana;
     font-size: 1rem;
+    padding: 5px 0 0 0;
     text-align: center;
+}
+
+.icon-pulse-1 {
+    animation: icon-pulse 1s ease-in-out infinite;
+}
+
+.icon-pulse-2 {
+    animation: icon-pulse 1.5s ease-in-out infinite;
+}
+
+.icon-pulse-3 {
+    animation: icon-pulse 2s ease-in-out infinite;
+}
+
+.icon-pulse-4 {
+    animation: icon-pulse 2.5s ease-in-out infinite;
+}
+
+@keyframes icon-pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 /*
@@ -313,6 +345,14 @@ Main media queries (width)
     .strike-through-animation::after {
         height: 4px;
     }
+
+    .companies-helped-icon-list i {
+        font-size: 4rem;
+    }
+
+    .companies-helped-icon-list p {
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -320,7 +360,7 @@ Main media queries (width)
         font-size: 2rem;
     }
 
-    .home-page-mission-statement hgroup h2, .home-page-tagline h3 {
+    .home-page-mission-statement hgroup h2, .home-page-tagline h3, .companies-helped-introduction h3 {
         font-size: 3rem;
     }
 
@@ -347,6 +387,10 @@ Main media queries (width)
     .learn-more-button a {
         font-size: 1rem;
         padding: 7px 10px 10px 10px;
+    }
+
+    .companies-helped-icon-list {
+        justify-content: space-between;
     }
 }
 

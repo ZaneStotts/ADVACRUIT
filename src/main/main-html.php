@@ -120,80 +120,79 @@
                 <div class="companies-helped-icons">
                     <ul class="companies-helped-icon-list">
                         <li>
-                            <i class="fa-brands fa-blogger"></i>
+                            <i class="fa-brands fa-blogger icon-pulse-1"></i>
                             <p>
                                 Blogger
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-flickr"></i>
+                            <i class="fa-brands fa-flickr icon-pulse-2"></i>
                             <p>
                                 Flickr
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-jxl"></i>
+                            <i class="fa-brands fa-jxl icon-pulse-3"></i>
                             <p>
                                 JXL
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-intercom"></i>
+                            <i class="fa-brands fa-intercom icon-pulse-4"></i>
                             <p>
                                 Intercom
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-kickstarter"></i>
+                            <i class="fa-brands fa-kickstarter icon-pulse-2"></i>
                             <p>
                                 Kickstarter
                             </p>
                         </li>
-                        
                         <li>
-                            <i class="fa-brands fa-square-behance"></i>
+                            <i class="fa-brands fa-square-behance icon-pulse-1"></i>
                             <p>
                                 Behance
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-square-dribbble"></i>
+                            <i class="fa-brands fa-square-dribbble icon-pulse-4"></i>
                             <p>
                                 Dribbble
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-square-facebook icon-pulse-3"></i>
                             <p>
                                 Facebook
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-square-upwork"></i>
+                            <i class="fa-brands fa-square-upwork icon-pulse-4"></i>
                             <p>
                                 Upwork
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-square-vimeo"></i>
+                            <i class="fa-brands fa-square-vimeo icon-pulse-2"></i>
                             <p>
                                 Vimeo
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-invision"></i>
+                            <i class="fa-brands fa-invision icon-pulse-1"></i>
                             <p>
                                 Invision
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-trello"></i>
+                            <i class="fa-brands fa-trello icon-pulse-4"></i>
                             <p>
                                 Trello
                             </p>
                         </li>
                         <li>
-                            <i class="fa-brands fa-korvue"></i>
+                            <i class="fa-brands fa-korvue icon-pulse-2"></i>
                             <p>
                                 Korvue
                             </p>
