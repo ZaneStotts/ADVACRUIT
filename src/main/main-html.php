@@ -38,7 +38,7 @@
                 </hgroup>
             </section>
             <section class="home-page-strike-through">
-                <div class="home-page-tagline">
+                <div class="strike-through-introduction">
                     <h3>
                         We do things here a bit differently.
                     </h3>
@@ -198,6 +198,28 @@
                             </p>
                         </li>
                     </ul>
+                </div>
+            </section>
+            <section class="home-page-blog-posts">
+                <div class="blog-posts-introduction">
+                    <h3>
+                        Read our blog.
+                    </h3>
+                </div>
+            </section>
+            <section class="home-page-email-subscription">
+                <div class="email-subscription-introduction">
+                    <h3>
+                        Subscribe to our email list.
+                    </h3>
+                    <p>
+                        Get alerted to new openings. Stay updated on hiring trends. Be informed about relevant content and events.
+                    </p>
+                </div>
+                <div class="email-subscription-input">
+                    <form>
+                        <input type="email" placeholder="Enter email">
+                    </form>
                 </div>
             </section>
         </main>

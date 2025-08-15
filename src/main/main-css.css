@@ -67,11 +67,11 @@ Main styles
     padding: 40px 40px 40px 40px;
 }
 
-.home-page-tagline {
+.strike-through-introduction {
     padding: 0 0 0 40px;
 }
 
-.home-page-tagline h3 {
+.strike-through-introduction h3 {
     color: var(--dark-text-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
@@ -98,7 +98,6 @@ Main styles
 .strike-through-icon-list li.red-switch i {
     color: crimson;
 }
-
 
 .strike-through-text-list {
     color: var(--background-color);
@@ -242,6 +241,36 @@ Main styles
     }
 }
 
+.home-page-blog-posts {
+    background-color: var(--text-color);
+    margin: auto;
+    max-width: 2000px;
+    padding: 40px 40px 40px 40px;
+}
+
+.blog-posts-introduction h3 {
+    color: var(--dark-text-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 5rem;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.home-page-email-subscription {
+    background-color: var(--dark-text-color);
+    margin: auto;
+    max-width: 2000px;
+    padding: 40px 40px 40px 40px;
+}
+
+.email-subscription-introduction h3 {
+    color: var(--text-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 5rem;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
 /*
 Main media queries (width)
 */
@@ -269,12 +298,12 @@ Main media queries (width)
         flex-direction: column;
     }
 
-    .home-page-tagline {
+    .strike-through-introduction {
         padding: 0 0 20px 0;
         width: 100%;
     }
 
-    .home-page-tagline h3 {
+    .strike-through-introduction h3 {
         text-align: left;
         padding: 0 0 0 0;
     }
@@ -334,7 +363,7 @@ Main media queries (width)
 }
 
 @media screen and (max-width: 800px) {
-    .home-page-tagline h3, .companies-helped-introduction h3 {
+    .strike-through-introduction h3, .companies-helped-introduction h3 {
         font-size: 4rem;
     }
 
@@ -360,7 +389,7 @@ Main media queries (width)
         font-size: 2rem;
     }
 
-    .home-page-mission-statement hgroup h2, .home-page-tagline h3, .companies-helped-introduction h3 {
+    .home-page-mission-statement hgroup h2, .strike-through-introduction h3, .companies-helped-introduction h3 {
         font-size: 3rem;
     }
 
