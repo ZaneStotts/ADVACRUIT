@@ -213,10 +213,12 @@
                         Subscribe to our email list.
                     </h3>
                     <p>
-                        Get alerted to new openings. Stay updated on hiring trends. Be informed about relevant content and events.
+                        Get alerted to new openings.
+                        Stay updated on hiring trends.
+                        Be informed about relevant content and events.
                     </p>
                 </div>
-                <div class="email-subscription-input">
+                <div class="email-subscription-form">
                     <form>
                         <input type="email" placeholder="Enter email">
                     </form>
