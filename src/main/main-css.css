@@ -19,6 +19,7 @@ Main styles
 }
 
 .home-page-mission-statement h1 {
+    animation: text-fade-down 2s ease-in-out 1s 1 backwards;
     color: var(--dark-text-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 3rem;
@@ -28,11 +29,36 @@ Main styles
     text-transform: uppercase;
 }
 
+@keyframes text-fade-down {
+    0% {
+        transform: translateY(-15%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
 .home-page-mission-statement hgroup {
     align-items: center;
+    animation: text-fade-up 2s ease-in-out 1s 1 backwards;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@keyframes text-fade-up {
+    0% {
+        transform: translateY(15%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
 }
 
 .home-page-mission-statement hgroup h2 {

@@ -13,7 +13,8 @@ if (isset($_SERVER['HTTP_X_FORWARDED_URL']) && strpos($_SERVER['HTTP_X_FORWARDED
     <meta charset="utf-8" lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Advacruit</title>
-    <!-- Favicon (add later) -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../Advacruit_favicon.png">
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="styles.css">
     <!-- Link to Google Fonts -->
