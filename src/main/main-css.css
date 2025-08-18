@@ -298,8 +298,9 @@ Main styles
 
 .email-subscription-introduction p {
     color: var(--background-color);
-    font-family: "Varela Round", Verdana;
-    font-size: 1.5rem;
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 2rem;
+    letter-spacing: -1px;
     text-align: center;
 }
 
@@ -322,7 +323,7 @@ Main styles
     border-radius: 50px;
     color: var(--dark-text-color);
     font-family: "Varela Round", Verdana;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 15px 20px 15px 20px;
     width: 100%;
 }
@@ -363,9 +364,12 @@ Main media queries (width)
         width: 100%;
     }
 
-    .strike-through-introduction h3 {
+    .strike-through-introduction h3,
+    .companies-helped-introduction h3,
+    .blog-posts-introduction h3,
+    .email-subscription-introduction h3,
+    .email-subscription-introduction p {
         text-align: left;
-        padding: 0 0 0 0;
     }
 
     .strike-through-lists {
@@ -385,10 +389,6 @@ Main media queries (width)
     .learn-more-button a {
         display: inline-block;
         transform-origin: left center;
-    }
-
-    .companies-helped-introduction h3 {
-        text-align: left;
     }
 }
 
@@ -423,11 +423,15 @@ Main media queries (width)
 }
 
 @media screen and (max-width: 800px) {
-    .strike-through-introduction h3, .companies-helped-introduction h3 {
+    .strike-through-introduction h3,
+    .companies-helped-introduction h3,
+    .blog-posts-introduction h3,
+    .email-subscription-introduction h3 {
         font-size: 4rem;
     }
 
-    .strike-through-icon-list, .strike-through-text-list {
+    .strike-through-icon-list,
+    .strike-through-text-list {
         font-size: 1.5rem;
     }
 
@@ -442,6 +446,10 @@ Main media queries (width)
     .companies-helped-icon-list p {
         font-size: 0.8rem;
     }
+
+    .email-subscription-introduction p {
+        font-size: 1.7rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -449,7 +457,11 @@ Main media queries (width)
         font-size: 2rem;
     }
 
-    .home-page-mission-statement hgroup h2, .strike-through-introduction h3, .companies-helped-introduction h3 {
+    .home-page-mission-statement hgroup h2,
+    .strike-through-introduction h3,
+    .companies-helped-introduction h3,
+    .blog-posts-introduction h3,
+    .email-subscription-introduction h3 {
         font-size: 3rem;
     }
 
@@ -461,7 +473,8 @@ Main media queries (width)
         padding: 30px 30px 30px 30px;
     }
 
-    .strike-through-icon-list, .strike-through-text-list {
+    .strike-through-icon-list,
+    .strike-through-text-list {
         font-size: 1rem;
     }
 
@@ -469,13 +482,10 @@ Main media queries (width)
         height: 2px;
     }
 
-    .introduction-paragraph p, .introduction-paragraph h4 {
+    .introduction-paragraph p,
+    .introduction-paragraph h4,
+    .email-subscription-introduction p {
         font-size: 1.5rem;
-    }
-
-    .learn-more-button a {
-        font-size: 1rem;
-        padding: 7px 10px 10px 10px;
     }
 
     .companies-helped-icon-list {
@@ -503,7 +513,8 @@ Main media queries (height)
 }
 
 @media screen and (max-height: 450px) {
-    .home-page-mission-statement h1, .home-page-mission-statement hgroup h2 {
+    .home-page-mission-statement h1,
+    .home-page-mission-statement hgroup h2 {
         font-size: 2rem;
     }
 

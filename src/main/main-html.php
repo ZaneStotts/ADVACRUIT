@@ -211,7 +211,7 @@
             <section class="home-page-email-subscription">
                 <div class="email-subscription-introduction">
                     <h3>
-                        Subscribe to our email list.
+                        Subscribe to our email.
                     </h3>
                     <p>
                         Get alerted to new openings.
