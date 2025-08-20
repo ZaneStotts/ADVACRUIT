@@ -53,7 +53,7 @@
                             <i class="fa-solid fa-robot fa-xl"></i>
                         </li>
                         <li>
-                            <i class="fa-solid fa-phone-volume fa-xl"></i>
+                            <i class="fa-solid fa-phone-slash fa-xl"></i>
                         </li>
                         <li>
                             <i class="fa-solid fa-newspaper fa-xl"></i>
