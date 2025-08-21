@@ -29,26 +29,26 @@
             <div class="footer-contact-lists">
                 <ul class="contact-icon-list">
                     <li>
-                        <i class="fa-solid fa-location-dot"></i>
-                    </li>
-                    <li>
                         <i class="fa-solid fa-phone"></i>
                     </li>
                     <li>
                         <i class="fa-solid fa-envelope"></i>
                     </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </li>
                 </ul>
                 <ul class="contact-text-list">
-                    <li>
-                        1100 Broadway, Suite 3-321
-                        <br>
-                        Marble Falls, Texas
-                    </li>
                     <li>
                         +1 (325) 248-8766
                     </li>
                     <li>
                         info@advacruit.com
+                    </li>
+                    <li>
+                        1100 Broadway, Suite 3-321
+                        <br>
+                        Marble Falls, Texas
                     </li>
                 </ul>
             </div>

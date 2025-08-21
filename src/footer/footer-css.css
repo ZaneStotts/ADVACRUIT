@@ -6,7 +6,8 @@ footer {
     background-color: var(--background-color);
     bottom: 0;
     display: flex;
-    width: 100%;
+    margin: auto;
+    max-width: 2000px;
 }
 
 .footer-icon-logo-container {
@@ -31,4 +32,25 @@ footer {
     letter-spacing: 1px;
     text-transform: uppercase;
     user-select: none;
+}
+
+.footer-contact-lists {
+    display: flex;
+}
+
+.contact-icon-list li {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    list-style-type: none; 
+    margin: 2px 0 0 0;
+    padding: 5px 10px 5px 0;
+    text-align: center;
+}
+
+.contact-text-list li {
+    color: var(--text-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 1.3rem;
+    list-style-type: none;
+    padding: 5px 0 5px 0;
 }
