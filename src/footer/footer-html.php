@@ -27,6 +27,9 @@
                 </h6>
             </div>
             <div class="footer-contact-lists">
+                <h5>
+                    Contact
+                </h5>
                 <ul class="contact-icon-list">
                     <li>
                         <i class="fa-solid fa-phone"></i>
@@ -49,6 +52,25 @@
                         1100 Broadway, Suite 3-321
                         <br>
                         Marble Falls, Texas
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links-lists">
+                <ul class="footer-links-1">
+                    <li>
+                        <a>
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Terms & Conditions
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Privacy Policy
+                        </a>
                     </li>
                 </ul>
             </div>
