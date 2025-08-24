@@ -26,53 +26,55 @@
                     <b>Advacruit</b>
                 </h6>
             </div>
-            <div class="footer-contact-lists">
+            <div class="footer-contact-lists-container">
                 <h5>
                     Contact
                 </h5>
-                <ul class="contact-icon-list">
-                    <li>
-                        <i class="fa-solid fa-phone"></i>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-envelope"></i>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-location-dot"></i>
-                    </li>
-                </ul>
-                <ul class="contact-text-list">
-                    <li>
-                        +1 (325) 248-8766
-                    </li>
-                    <li>
-                        info@advacruit.com
-                    </li>
-                    <li>
-                        1100 Broadway, Suite 3-321
-                        <br>
-                        Marble Falls, Texas
-                    </li>
-                </ul>
+                <div class="contact-lists">
+                    <ul class="contact-icon-list">
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </li>
+                    </ul>
+                    <ul class="contact-text-list">
+                        <li>
+                            +1 (325) 248-8766
+                        </li>
+                        <li>
+                            info@advacruit.com
+                        </li>
+                        <li>
+                            1100 Broadway, Suite 3-321
+                            <br>
+                            Marble Falls, Texas
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-links-lists">
-                <ul class="footer-links-1">
-                    <li>
-                        <a>
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            Terms & Conditions
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            Privacy Policy
-                        </a>
-                    </li>
-                </ul>
+            <div class="footer-social-links-container">
+                <h5>
+                    Connect
+                </h5>
+                <div class="social-links-icons">
+                    <a href="" target="_blank" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin fa-xl"></i>
+                    </a>
+                    <a href="" target="_blank" title="Threads">
+                        <i class="fa-brands fa-square-threads fa-xl"></i>
+                    </a>
+                    <a href="" target="_blank" title="Instagram">
+                        <i class="fa-brands fa-square-instagram fa-xl"></i>
+                    </a>
+                    <a href="" target="_blank" title="X">
+                        <i class="fa-brands fa-square-x-twitter fa-xl"></i>
+                    </a>
+                </div>
             </div>
         </footer>
     </body>
