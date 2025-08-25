@@ -76,6 +76,23 @@
                     </a>
                 </div>
             </div>
+            <div class="footer-copyright-container">
+                <ul class="copyright-list">
+                    <li>
+                        <a href="" title="Terms & Conditions">
+                            Terms & Conditions
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="Privacy Policy">
+                            Privacy Policy
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    © 2025 Advacruit. All rights reserved.
+                </p>
+            </div>
         </footer>
     </body>
 </html>

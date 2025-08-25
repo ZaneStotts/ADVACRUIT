@@ -5,16 +5,20 @@ Footer styles
 footer {
     background-color: var(--background-color);
     bottom: 0;
-    display: flex;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
     margin: auto;
     max-width: 2000px;
+    min-height: 300px;
+    padding: 40px 40px 40px 40px;
 }
 
 .footer-icon-logo-container {
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
-    padding: 10px 15px 10px 15px;
     text-align: center;
 }
 
@@ -34,9 +38,10 @@ footer {
     user-select: none;
 }
 
+.footer-icon-logo-container,
 .footer-contact-lists-container,
 .footer-social-links-container {
-    padding: 10px 15px 10px 15px;
+    max-width: 210px;
 }
 
 .footer-contact-lists-container h5,
@@ -75,7 +80,7 @@ footer {
 
 .social-links-icons {
     display: flex;
-    margin: 0 -10px 0 -10px;
+    margin: 0 -11.5px 0 -11.5px;
 }
 
 .social-links-icons a {
@@ -85,10 +90,14 @@ footer {
 .social-links-icons a i {
     color: var(--text-color);
     font-size: 2.5rem;
-    padding: 30px 10px 0 10px;
+    padding: 30px 11.5px 0 11.5px;
     transition: 0.2s;
 }
 
 .social-links-icons a i:hover {
     transform: scale(1.2);
+}
+
+.footer-copyright-container {
+    grid-column: span 3;
 }
