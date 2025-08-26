@@ -79,13 +79,24 @@
             <div class="footer-copyright-container">
                 <ul class="copyright-list">
                     <li>
-                        <a href="" title="Terms & Conditions">
+                        <a href="" target="_blank" title="Terms & Conditions">
                             Terms & Conditions
                         </a>
                     </li>
+                    <li class="copyright-list-separator">
+                        |
+                    </li>
                     <li>
-                        <a href="" title="Privacy Policy">
+                        <a href="" target="_blank" title="Privacy Policy">
                             Privacy Policy
+                        </a>
+                    </li>
+                    <li class="copyright-list-separator">
+                        |
+                    </li>
+                    <li>
+                        <a href="" target="_blank" title="EEO Policy">
+                            EEO Policy
                         </a>
                     </li>
                 </ul>

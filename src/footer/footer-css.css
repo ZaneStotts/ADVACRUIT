@@ -12,7 +12,7 @@ footer {
     margin: auto;
     max-width: 2000px;
     min-height: 300px;
-    padding: 40px 40px 40px 40px;
+    padding: 40px 40px 10px 40px;
 }
 
 .footer-icon-logo-container {
@@ -80,7 +80,7 @@ footer {
 
 .social-links-icons {
     display: flex;
-    margin: 0 -11.5px 0 -11.5px;
+    margin: 0 -11.7px 0 -11.7px;
 }
 
 .social-links-icons a {
@@ -90,7 +90,7 @@ footer {
 .social-links-icons a i {
     color: var(--text-color);
     font-size: 2.5rem;
-    padding: 30px 11.5px 0 11.5px;
+    padding: 30px 11.7px 0 11.7px;
     transition: 0.2s;
 }
 
@@ -100,4 +100,36 @@ footer {
 
 .footer-copyright-container {
     grid-column: span 3;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+.copyright-list li {
+    display: inline;
+    list-style-type: none;
+}
+
+.copyright-list a {
+    color: var(--text-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.copyright-list a:hover {
+    text-decoration: underline;
+}
+
+.copyright-list-separator {
+    color: var(--dark-text-color);
+    font-family: "Varela Round", Verdana;
+    font-size: 1.3rem;
+    padding: 0 5px 0 5px;
+}
+
+.footer-copyright-container p {
+    color: var(--text-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 1.2rem;
+    padding: 5px 0 0 0;
 }
