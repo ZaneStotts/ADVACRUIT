@@ -4,21 +4,26 @@ Footer styles
 
 footer {
     background-color: var(--background-color);
-    bottom: 0;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto;
     margin: auto;
     max-width: 2000px;
     min-height: 300px;
     padding: 40px 40px 10px 40px;
 }
 
+.footer-container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    margin: auto;
+    max-width: 900px;
+}
+
 .footer-icon-logo-container {
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 
@@ -34,8 +39,22 @@ footer {
     font-family: "Zen Dots", monospace;
     font-size: 1.5rem;
     letter-spacing: 1px;
+    padding: 0 0 5px 0;
     text-transform: uppercase;
-    user-select: none;
+}
+
+.footer-slogan {
+    border-top: 2px solid var(--dark-text-color);
+    color: var(--text-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 1rem;
+    line-height: 0.8;
+    padding: 10px 0 0 0;
+    text-transform: uppercase;
+}
+
+.footer-slogan-plus-symbol {
+    font-size: 1.3rem;
 }
 
 .footer-icon-logo-container,
@@ -133,3 +152,7 @@ footer {
     font-size: 1.2rem;
     padding: 5px 0 0 0;
 }
+
+/*
+Footer media queries (width)
+*/

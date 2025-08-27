@@ -18,62 +18,75 @@
     </head>
     <body>
         <footer>
-            <div class="footer-icon-logo-container">
-                <a id="footer-icon-logo" href="index.php" title="Home">
-                    <i class="fa-solid fa-handshake fa-2xl"></i>
-                </a>
-                <h6>
-                    <b>Advacruit</b>
-                </h6>
-            </div>
-            <div class="footer-contact-lists-container">
-                <h5>
-                    Contact
-                </h5>
-                <div class="contact-lists">
-                    <ul class="contact-icon-list">
-                        <li>
-                            <i class="fa-solid fa-phone"></i>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-envelope"></i>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-location-dot"></i>
-                        </li>
-                    </ul>
-                    <ul class="contact-text-list">
-                        <li>
-                            +1 (325) 248-8766
-                        </li>
-                        <li>
-                            info@advacruit.com
-                        </li>
-                        <li>
-                            1100 Broadway, Suite 3-321
-                            <br>
-                            Marble Falls, Texas
-                        </li>
-                    </ul>
+            <div class="footer-container">
+                <div class="footer-icon-logo-container">
+                    <a id="footer-icon-logo" href="index.php" title="Home">
+                        <i class="fa-solid fa-handshake fa-2xl"></i>
+                    </a>
+                    <h6>
+                        <b>
+                            Advacruit
+                        </b>
+                    </h6>
+                    <p class="footer-slogan">
+                        Advocating connections
+                        <br>
+                        <span class="footer-slogan-plus-symbol">
+                            +
+                        </span>
+                        <br>
+                        advancing careers
+                    </p>
                 </div>
-            </div>
-            <div class="footer-social-links-container">
-                <h5>
-                    Connect
-                </h5>
-                <div class="social-links-icons">
-                    <a href="" target="_blank" title="LinkedIn">
-                        <i class="fa-brands fa-linkedin fa-xl"></i>
-                    </a>
-                    <a href="" target="_blank" title="Threads">
-                        <i class="fa-brands fa-square-threads fa-xl"></i>
-                    </a>
-                    <a href="" target="_blank" title="Instagram">
-                        <i class="fa-brands fa-square-instagram fa-xl"></i>
-                    </a>
-                    <a href="" target="_blank" title="X">
-                        <i class="fa-brands fa-square-x-twitter fa-xl"></i>
-                    </a>
+                <div class="footer-contact-lists-container">
+                    <h5>
+                        Contact
+                    </h5>
+                    <div class="contact-lists">
+                        <ul class="contact-icon-list">
+                            <li>
+                                <i class="fa-solid fa-phone"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </li>
+                        </ul>
+                        <ul class="contact-text-list">
+                            <li>
+                                +1 (325) 248-8766
+                            </li>
+                            <li>
+                                info@advacruit.com
+                            </li>
+                            <li>
+                                1100 Broadway, Suite 3-321
+                                <br>
+                                Marble Falls, Texas
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social-links-container">
+                    <h5>
+                        Connect
+                    </h5>
+                    <div class="social-links-icons">
+                        <a href="" target="_blank" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                        <a href="" target="_blank" title="Threads">
+                            <i class="fa-brands fa-square-threads fa-xl"></i>
+                        </a>
+                        <a href="" target="_blank" title="Instagram">
+                            <i class="fa-brands fa-square-instagram fa-xl"></i>
+                        </a>
+                        <a href="" target="_blank" title="X">
+                            <i class="fa-brands fa-square-x-twitter fa-xl"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="footer-copyright-container">
