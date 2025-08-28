@@ -69,6 +69,35 @@
                         </ul>
                     </div>
                 </div>
+                <div class="footer-policies-list-container">
+                    <h5>
+                        Policies
+                    </h5>
+                    <div class="policies-list">
+                        <ul>
+                            <li>
+                                <a href="" target="_blank" title="Diversity & Inclusion">
+                                    Diversity & Inclusion
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" title="Equal Employment Opportunity">
+                                    Equal Employment Opportunity
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" title="Privacy Policy">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" title="Terms & Conditions">
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="footer-social-links-container">
                     <h5>
                         Connect
@@ -90,9 +119,10 @@
                 </div>
             </div>
             <div class="footer-copyright-container">
+                <!--
                 <ul class="copyright-list">
                     <li>
-                        <a href="" target="_blank" title="Terms & Conditions">
+                        <a>
                             Terms & Conditions
                         </a>
                     </li>
@@ -100,7 +130,7 @@
                         |
                     </li>
                     <li>
-                        <a href="" target="_blank" title="Privacy Policy">
+                        <a>
                             Privacy Policy
                         </a>
                     </li>
@@ -108,11 +138,12 @@
                         |
                     </li>
                     <li>
-                        <a href="" target="_blank" title="EEO Policy">
+                        <a>
                             EEO Policy
                         </a>
                     </li>
                 </ul>
+                -->
                 <p>
                     © 2025 Advacruit. All rights reserved.
                 </p>
