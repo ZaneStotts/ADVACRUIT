@@ -91,10 +91,6 @@ Main styles
     padding: 40px 40px 40px 40px;
 }
 
-.strike-through-introduction {
-    padding: 0 0 0 40px;
-}
-
 .strike-through-introduction h3 {
     color: var(--dark-text-color);
     font-family: "Barlow Condensed", Tahoma;
@@ -179,8 +175,8 @@ Main styles
     border-radius: 50px;
     color: var(--text-color);
     font-family: "Barlow Condensed", Tahoma;
-    font-size: 1.5rem;
-    padding: 10px 13px 13px 13px;
+    font-size: 2rem;
+    padding: 12px 15px 15px 15px;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.3s;
@@ -353,7 +349,7 @@ Main media queries (width)
     }
 
     .strike-through-introduction {
-        padding: 0 0 20px 0;
+        padding: 0 0 40px 0;
         width: 100%;
     }
 
@@ -371,7 +367,7 @@ Main media queries (width)
     }
 
     .introduction-paragraph {
-        padding: 0 0 30px 0;
+        padding: 0 0 40px 0;
     }
 
     .learn-more-button {

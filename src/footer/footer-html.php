@@ -69,35 +69,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-policies-list-container">
-                    <h5>
-                        Policies
-                    </h5>
-                    <div class="policies-list">
-                        <ul>
-                            <li>
-                                <a href="" target="_blank" title="Diversity & Inclusion">
-                                    Diversity & Inclusion
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank" title="Equal Employment Opportunity">
-                                    Equal Employment Opportunity
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank" title="Privacy Policy">
-                                    Privacy
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank" title="Terms & Conditions">
-                                    Terms & Conditions
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="footer-social-links-container">
                     <h5>
                         Connect
@@ -119,7 +90,6 @@
                 </div>
             </div>
             <div class="footer-copyright-container">
-                <!--
                 <ul class="copyright-list">
                     <li>
                         <a>
@@ -131,7 +101,7 @@
                     </li>
                     <li>
                         <a>
-                            Privacy Policy
+                            Privacy
                         </a>
                     </li>
                     <li class="copyright-list-separator">
@@ -139,11 +109,10 @@
                     </li>
                     <li>
                         <a>
-                            EEO Policy
+                            EEO & Diversity
                         </a>
                     </li>
                 </ul>
-                -->
                 <p>
                     © 2025 Advacruit. All rights reserved.
                 </p>
