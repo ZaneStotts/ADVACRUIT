@@ -222,6 +222,9 @@
                 <div class="email-subscription-form">
                     <form>
                         <input type="email" placeholder="Enter email">
+                        <button type="button">
+                            Subscribe
+                        </button>
                     </form>
                 </div>
             </section>
