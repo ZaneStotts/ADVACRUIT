@@ -19,9 +19,9 @@
     <body>
         <main>
             <section class="home-page-mission-statement">
-                <h1>
-                    Our mission:
-                </h1>
+                <h4>
+                    Our equation for success:
+                </h4>
                 <hgroup>
                     <h2>
                         Advocating
@@ -36,6 +36,12 @@
                         <br>
                         careers
                     </h2>
+                    <p>
+                        =
+                    </p>
+                    <h1>
+                        Advacruit
+                    </h1>
                 </hgroup>
             </section>
             <section class="home-page-strike-through">

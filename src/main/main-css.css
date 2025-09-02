@@ -11,14 +11,14 @@ Main styles
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 100dvh;
     object-fit: contain;
     padding: 76px 0 0 0;
     margin: auto;
     max-width: 2000px;
 }
 
-.home-page-mission-statement h1 {
+.home-page-mission-statement h4 {
     animation: text-fade-down 2s ease-in-out 1s 1 backwards;
     color: var(--dark-text-color);
     font-family: "Barlow Condensed", Tahoma;
@@ -330,7 +330,7 @@ Main styles
     font-family: "Barlow Condensed", Tahoma;
     font-size: 1.5rem;
     margin: 0 0 0 20px;
-    padding: 12px 20px 15px 20px;
+    padding: 13px 20px 15px 20px;
     text-transform: uppercase;
     transition: 0.3s;
 }
@@ -474,7 +474,7 @@ Main media queries (width)
 }
 
 @media screen and (max-width: 500px) {
-    .home-page-mission-statement h1 {
+    .home-page-mission-statement h4 {
         font-size: 2rem;
     }
 
@@ -520,7 +520,7 @@ Main media queries (height)
 */
 
 @media screen and (max-height: 650px) {
-    .home-page-mission-statement h1 {
+    .home-page-mission-statement h4 {
         font-size: 2rem;
     }
 
@@ -535,7 +535,7 @@ Main media queries (height)
 }
 
 @media screen and (max-height: 450px) {
-    .home-page-mission-statement h1,
+    .home-page-mission-statement h4,
     .home-page-mission-statement hgroup h2 {
         font-size: 2rem;
     }

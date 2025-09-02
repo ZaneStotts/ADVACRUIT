@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" lang="en">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
         <title>Advacruit footer</title>
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="../Advacruit_favicon.png">
@@ -55,7 +56,7 @@
                             </li>
                         </ul>
                         <ul class="contact-text-list">
-                            <li>
+                            <li id="footer-phone-number">
                                 +1 (325) 248-8766
                             </li>
                             <li>

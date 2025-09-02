@@ -98,6 +98,10 @@ footer {
     padding: 5px 0 5px 0;
 }
 
+#footer-phone-number {
+    pointer-events: none;
+}
+
 .social-links-icons {
     display: flex;
     margin: 0 -11.7px 0 -11.7px;
