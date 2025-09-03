@@ -39,9 +39,12 @@
                     <p>
                         =
                     </p>
-                    <h1>
-                        Advacruit
-                    </h1>
+                    <div class="home-page-icon-logo">
+                        <i class="fa-solid fa-handshake fa-2xl"></i>
+                        <h1>
+                            Advacruit
+                        </h1>
+                    </div>
                 </hgroup>
             </section>
             <section class="home-page-strike-through">

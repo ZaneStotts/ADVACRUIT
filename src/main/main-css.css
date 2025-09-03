@@ -44,7 +44,7 @@ Main styles
     align-items: center;
     animation: text-fade-up 2s ease-in-out 1s 1 backwards;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -64,7 +64,7 @@ Main styles
     align-items: center;
     color: var(--text-color);
     font-family: "Barlow Condensed", Tahoma;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: normal;
     text-align: center;
     text-shadow: 0 0 5px var(--text-shadow-color);
@@ -76,9 +76,31 @@ Main styles
     color: var(--text-color);
     display: flex;
     font-family: "Barlow Condensed", Tahoma;
-    font-size: 7rem;
+    font-size: 4rem;
     justify-content: center;
     text-shadow: 0 0 5px var(--text-shadow-color);
+}
+
+.home-page-icon-logo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-page-icon-logo i {
+    color: var(--text-color);
+    font-size: 6rem;
+    text-align: center;
+}
+
+.home-page-icon-logo h1 {
+    color: var(--text-color);
+    font-family: "Zen Dots", monospace;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    padding: 15px 0 0 0;
+    text-transform: uppercase;
 }
 
 .home-page-strike-through {
