@@ -61,7 +61,6 @@ Main styles
 }
 
 .home-page-mission-statement hgroup h2 {
-    align-items: center;
     color: var(--text-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 3.5rem;
@@ -72,7 +71,6 @@ Main styles
 }
 
 .home-page-mission-statement hgroup p {
-    align-items: center;
     color: var(--text-color);
     display: flex;
     font-family: "Barlow Condensed", Tahoma;
@@ -86,12 +84,14 @@ Main styles
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 8rem;
 }
 
 .home-page-icon-logo i {
     color: var(--text-color);
     font-size: 6rem;
     text-align: center;
+    line-height: 0.9;
 }
 
 .home-page-icon-logo h1 {
@@ -99,7 +99,7 @@ Main styles
     font-family: "Zen Dots", monospace;
     font-size: 2rem;
     letter-spacing: 1px;
-    padding: 15px 0 0 0;
+    //padding: 15px 0 0 0;
     text-transform: uppercase;
 }
 
