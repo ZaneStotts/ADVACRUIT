@@ -24,6 +24,7 @@ Main styles
     font-family: "Barlow Condensed", Tahoma;
     font-size: 3rem;
     font-weight: bold;
+    padding: 0 0 20px 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -74,8 +75,9 @@ Main styles
     color: var(--text-color);
     display: flex;
     font-family: "Barlow Condensed", Tahoma;
-    font-size: 4rem;
+    font-size: 5rem;
     justify-content: center;
+    padding: 0 40px 0 40px;
     text-shadow: 0 0 5px var(--text-shadow-color);
 }
 
@@ -89,9 +91,10 @@ Main styles
 
 .home-page-icon-logo i {
     color: var(--text-color);
-    font-size: 6rem;
+    font-size: 5.7rem;
     text-align: center;
-    line-height: 0.9;
+    line-height: 0.99;
+    text-shadow: 0 0 5px var(--text-shadow-color);
 }
 
 .home-page-icon-logo h1 {
@@ -99,7 +102,7 @@ Main styles
     font-family: "Zen Dots", monospace;
     font-size: 2rem;
     letter-spacing: 1px;
-    //padding: 15px 0 0 0;
+    text-shadow: 0 0 5px var(--text-shadow-color);
     text-transform: uppercase;
 }
 
@@ -179,7 +182,6 @@ Main styles
     color: var(--dark-text-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 2rem;
-    letter-spacing: -1px;
     padding: 10px 0 0 0;
 }
 
@@ -188,7 +190,6 @@ Main styles
     font-family: "Barlow Condensed", Tahoma;
     font-size: 2rem;
     font-weight: bold;
-    letter-spacing: -1px;
 }
 
 .learn-more-button a {
