@@ -86,7 +86,6 @@ Main styles
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 8rem;
 }
 
 .home-page-icon-logo i {
@@ -457,7 +456,39 @@ Main media queries (width)
     }
 }
 
+@media screen and (max-width: 1100px) {
+    .home-page-mission-statement h4,
+    .home-page-mission-statement hgroup h2 {
+        font-size: 2.5rem;
+    }
+
+    .home-page-mission-statement hgroup p {
+        font-size: 4rem;
+        padding: 0 35px 0 35px;
+    }
+
+    .home-page-icon-logo i {
+        font-size: 4.4rem;
+    }
+
+    .home-page-icon-logo h1 {
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 800px) {
+    .home-page-mission-statement h4 {
+        font-size: 2rem;
+    }
+
+    .home-page-mission-statement hgroup {
+        flex-direction: column;
+    }
+
+    .home-page-mission-statement hgroup p {
+        line-height: 1;
+    }
+
     .strike-through-introduction h3,
     .companies-helped-introduction h3,
     .blog-posts-introduction h3,
@@ -497,20 +528,11 @@ Main media queries (width)
 }
 
 @media screen and (max-width: 500px) {
-    .home-page-mission-statement h4 {
-        font-size: 2rem;
-    }
-
-    .home-page-mission-statement hgroup h2,
     .strike-through-introduction h3,
     .companies-helped-introduction h3,
     .blog-posts-introduction h3,
     .email-subscription-introduction h3 {
         font-size: 3rem;
-    }
-
-    .home-page-mission-statement hgroup p {
-        font-size: 6rem;
     }
 
     .strike-through-icon-list,
