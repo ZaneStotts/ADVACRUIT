@@ -20,7 +20,7 @@
         <main>
             <section class="home-page-mission-statement">
                 <h4>
-                    Our equation for success:
+                    Our equation for success
                 </h4>
                 <hgroup>
                     <h2>
