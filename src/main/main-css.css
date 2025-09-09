@@ -593,11 +593,24 @@ Main media queries (width & height)
 
 @media screen and (max-width: 800px) and (max-height: 600px) {
     .home-page-mission-statement h4 {
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 0 20px 10px 20px;
     }
 
+    .home-page-mission-statement hgroup h2 {
+        font-size: 2rem;
+    }
+
     .home-page-mission-statement hgroup p {
-        line-height: 0.7;
+        font-size: 3rem;
+        line-height: 0.8;
+    }
+
+    .home-page-icon-logo i {
+        font-size: 3rem;
+    }
+
+    .home-page-icon-logo h1 {
+        font-size: 1rem;
     }
 }
