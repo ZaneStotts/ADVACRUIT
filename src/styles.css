@@ -13,6 +13,14 @@ Universal styles across all pages
     --dark-text-color: rebeccapurple;
     --text-color: lavender;
     --text-shadow-color: black;
+
+    /*
+    --background-color: lavender;
+    --dark-accent-color: rebeccapurple;
+    --light-accent-color: orchid;
+    --main-color: mediumpurple;
+    --shadow-color: black;
+    */
 }
 
 body {
