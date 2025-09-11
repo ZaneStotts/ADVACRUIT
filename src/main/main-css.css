@@ -20,7 +20,7 @@ Main styles
 
 .home-page-mission-statement h4 {
     animation: text-fade-down 2s ease-in-out 1s 1 backwards;
-    color: var(--dark-text-color);
+    color: var(--main-color);
     font-family: "Varela Round", Verdana;
     font-size: 3rem;
     font-weight: bold;
@@ -62,23 +62,23 @@ Main styles
 }
 
 .home-page-mission-statement hgroup h2 {
-    color: var(--text-color);
+    color: var(--background-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 3.5rem;
     font-weight: normal;
     text-align: center;
-    text-shadow: 0 0 5px var(--text-shadow-color);
+    text-shadow: 0 0 5px var(--shadow-color);
     text-transform: uppercase;
 }
 
 .home-page-mission-statement hgroup p {
-    color: var(--text-color);
+    color: var(--background-color);
     display: flex;
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
     justify-content: center;
     padding: 0 40px 0 40px;
-    text-shadow: 0 0 5px var(--text-shadow-color);
+    text-shadow: 0 0 5px var(--shadow-color);
 }
 
 .home-page-icon-logo {
@@ -89,25 +89,25 @@ Main styles
 }
 
 .home-page-icon-logo i {
-    color: var(--text-color);
+    color: var(--light-accent-color);
     font-size: 5.7rem;
     text-align: center;
     line-height: 0.99;
-    text-shadow: 0 0 5px var(--text-shadow-color);
+    text-shadow: 0 0 5px var(--shadow-color);
 }
 
 .home-page-icon-logo h1 {
-    color: var(--text-color);
+    color: var(--light-accent-color);
     font-family: "Zen Dots", monospace;
     font-size: 2rem;
     letter-spacing: 1px;
-    text-shadow: 0 0 5px var(--text-shadow-color);
+    text-shadow: 0 0 5px var(--shadow-color);
     text-transform: uppercase;
 }
 
 .home-page-strike-through {
     align-items: center;
-    background-color: var(--text-color);
+    background-color: var(--background-color);
     display: flex;
     flex-direction: row-reverse;
     margin: auto;
@@ -116,7 +116,7 @@ Main styles
 }
 
 .strike-through-introduction h3 {
-    color: var(--dark-text-color);
+    color: var(--light-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
     text-align: center;
@@ -127,7 +127,7 @@ Main styles
 }
 
 .strike-through-icon-list {
-    color: var(--background-color);
+    color: var(--main-color);
     font-size: 2rem;
     line-height: 3;
     list-style-type: none;
@@ -143,7 +143,7 @@ Main styles
 }
 
 .strike-through-text-list {
-    color: var(--background-color);
+    color: var(--main-color);
     font-family: "Varela Round", Verdana;
     font-size: 2rem;
     line-height: 3;
@@ -157,7 +157,7 @@ Main styles
 }
 
 .strike-through-animation::after {
-    background-color: var(--dark-text-color);
+    background-color: var(--dark-accent-color);
     border-radius: 50px;
     content: "";
     height: 5px;
@@ -178,24 +178,24 @@ Main styles
 }
 
 .introduction-paragraph p {
-    color: var(--dark-text-color);
+    color: var(--main-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 2rem;
     padding: 10px 0 0 0;
 }
 
 .introduction-paragraph h4 {
-    color: var(--dark-text-color);
+    color: var(--main-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .learn-more-button a {
-    background-color: var(--text-color);
-    border: 3px solid var(--background-color);
+    background-color: var(--light-accent-color);
+    border: 3px solid var(--main-color);
     border-radius: 50px;
-    color: var(--dark-text-color);
+    color: var(--background-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 2rem;
     padding: 12px 15px 15px 15px;
@@ -205,20 +205,21 @@ Main styles
 }
 
 .learn-more-button a:hover {
-    background-color: var(--dark-text-color);
-    color: var(--text-color);
+    background-color: var(--background-color);
+    border: 3px solid var(--light-accent-color);
+    color: var(--main-color);
     transform: scale(1.1);
 }
 
 .home-page-companies-helped {
-    background-color: var(--dark-text-color);
+    background-color: var(--main-color);
     margin: auto;
     max-width: 2000px;
     padding: 40px 40px 40px 40px;
 }
 
 .companies-helped-introduction h3 {
-    color: var(--text-color);
+    color: var(--light-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
     text-align: center;
@@ -243,7 +244,7 @@ Main styles
 }
 
 .companies-helped-icon-list p {
-    color: var(--text-color);
+    color: var(--dark-accent-color);
     font-family: "Varela Round", Verdana;
     font-size: 1rem;
     padding: 5px 0 0 0;
@@ -284,35 +285,35 @@ Main styles
 }
 
 .home-page-blog-posts {
-    background-color: var(--text-color);
+    background-color: var(--background-color);
     margin: auto;
     max-width: 2000px;
     padding: 40px 40px 40px 40px;
 }
 
 .blog-posts-introduction h3 {
-    color: var(--dark-text-color);
+    color: var(--light-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
     text-align: center;
 }
 
 .home-page-email-subscription {
-    background-color: var(--dark-text-color);
+    background-color: var(--main-color);
     margin: auto;
     max-width: 2000px;
     padding: 40px 40px 40px 40px;
 }
 
 .email-subscription-introduction h3 {
-    color: var(--text-color);
+    color: var(--light-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
     text-align: center;
 }
 
 .email-subscription-introduction p {
-    color: var(--background-color);
+    color: var(--dark-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 2rem;
     text-align: center;
@@ -333,8 +334,8 @@ Main styles
 }
 
 .email-subscription-form input {
-    background-color: var(--text-color);
-    border: 3px solid var(--background-color);
+    background-color: var(--background-color);
+    border: 3px solid var(--dark-accent-color);
     border-radius: 50px;
     color: var(--dark-text-color);
     font-family: "Varela Round", Verdana;
@@ -348,7 +349,7 @@ Main styles
 }
 
 .email-subscription-form button {
-    background-color: var(--dark-text-color);
+    background-color: var(--light-accent-color);
     border: 3px solid var(--background-color);
     border-radius: 50px;
     color: var(--text-color);
