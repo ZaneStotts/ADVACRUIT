@@ -20,7 +20,7 @@ Main styles
 
 .home-page-mission-statement h4 {
     animation: text-fade-down 2s ease-in-out 1s 1 backwards;
-    color: var(--main-color);
+    color: var(--dark-accent-color);
     font-family: "Varela Round", Verdana;
     font-size: 3rem;
     font-weight: bold;
@@ -116,7 +116,7 @@ Main styles
 }
 
 .strike-through-introduction h3 {
-    color: var(--light-accent-color);
+    color: var(--dark-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
     text-align: center;
@@ -178,22 +178,22 @@ Main styles
 }
 
 .introduction-paragraph p {
-    color: var(--main-color);
+    color: var(--dark-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 2rem;
     padding: 10px 0 0 0;
 }
 
 .introduction-paragraph h4 {
-    color: var(--main-color);
+    color: var(--dark-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .learn-more-button a {
-    background-color: var(--light-accent-color);
-    border: 3px solid var(--main-color);
+    background-color: var(--main-color);
+    border: 3px solid var(--dark-accent-color);
     border-radius: 50px;
     color: var(--background-color);
     font-family: "Barlow Condensed", Tahoma;
@@ -205,9 +205,9 @@ Main styles
 }
 
 .learn-more-button a:hover {
-    background-color: var(--background-color);
+    background-color: var(--dark-accent-color);
     border: 3px solid var(--light-accent-color);
-    color: var(--main-color);
+    color: var(--light-accent-color);
     transform: scale(1.1);
 }
 
@@ -219,7 +219,7 @@ Main styles
 }
 
 .companies-helped-introduction h3 {
-    color: var(--light-accent-color);
+    color: var(--dark-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
     text-align: center;
@@ -241,6 +241,11 @@ Main styles
     color: var(--background-color);
     font-size: 5rem;
     padding: 30px 15px 0 15px;
+    transition: 0.3s;
+}
+
+.companies-helped-icon-list i:hover {
+    color: var(--light-accent-color);
 }
 
 .companies-helped-icon-list p {
@@ -292,7 +297,7 @@ Main styles
 }
 
 .blog-posts-introduction h3 {
-    color: var(--light-accent-color);
+    color: var(--dark-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
     text-align: center;
@@ -306,7 +311,7 @@ Main styles
 }
 
 .email-subscription-introduction h3 {
-    color: var(--light-accent-color);
+    color: var(--dark-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
     text-align: center;
@@ -337,22 +342,24 @@ Main styles
     background-color: var(--background-color);
     border: 3px solid var(--dark-accent-color);
     border-radius: 50px;
-    color: var(--dark-text-color);
+    color: var(--dark-accent-color);
     font-family: "Varela Round", Verdana;
     font-size: 1.5rem;
     padding: 15px 20px 15px 20px;
+    transition: 0.3s;
     width: 100%;
 }
 
 .email-subscription-form input:focus {
+    border: 3px solid var(--light-accent-color);
     outline: none;
 }
 
 .email-subscription-form button {
-    background-color: var(--light-accent-color);
-    border: 3px solid var(--background-color);
+    background-color: var(--background-color);
+    border: 3px solid var(--dark-accent-color);
     border-radius: 50px;
-    color: var(--text-color);
+    color: var(--main-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 1.5rem;
     margin: 0 0 0 20px;
@@ -362,8 +369,9 @@ Main styles
 }
 
 .email-subscription-form button:hover {
-    background-color: var(--text-color);
-    color: var(--dark-text-color);
+    background-color: var(--dark-accent-color);
+    border: 3px solid var(--light-accent-color);
+    color: var(--light-accent-color);
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -444,7 +452,7 @@ Main media queries (width)
         display: flex;
         flex-direction: column;
         margin: auto;
-        max-width: 720px;
+        max-width: 750px;
         padding: 40px 0 40px 40px;
         text-align: center;
     }

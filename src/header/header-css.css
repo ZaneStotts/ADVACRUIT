@@ -68,7 +68,7 @@ header nav {
     justify-content: center;
     text-align: center;
     text-decoration: none;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .header-links-container li a:hover {
@@ -89,7 +89,7 @@ header nav {
 }
 
 .social-links-container a {
-    color: var(--text-color);
+    color: var(--background-color);
     text-decoration: none;
 }
 
@@ -98,6 +98,7 @@ header nav {
 }
 
 .social-links-container i:hover {
+    color: var(--light-accent-color);
     transform: scale(1.2);
 }
 
@@ -117,11 +118,12 @@ header nav {
 }
 
 .responsive-menu-collapse i {
-    color: var(--light-accent-color);
-    transition: 0.2s;
+    color: var(--background-color);
+    transition: 0.3s;
 }
 
 .responsive-menu-collapse i:hover {
+    color: var(--light-accent-color);
     transform: scale(1.1);
 }
 

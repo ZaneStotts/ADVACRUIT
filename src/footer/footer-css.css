@@ -114,10 +114,11 @@ footer {
     color: var(--background-color);
     font-size: 2.5rem;
     padding: 30px 11.7px 0 11.7px;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .social-links-icons a i:hover {
+    color: var(--light-accent-color);
     transform: scale(1.2);
 }
 
@@ -137,7 +138,7 @@ footer {
     font-family: "Barlow Condensed", Tahoma;
     font-size: 1rem;
     text-decoration: none;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .copyright-list a:hover {
