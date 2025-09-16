@@ -216,6 +216,8 @@
                         Read our blog.
                     </h3>
                 </div>
+                <div class="blog-posts-area">
+                </div>
             </section>
             <section class="home-page-email-subscription">
                 <div class="email-subscription-introduction">
