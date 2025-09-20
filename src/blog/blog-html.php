@@ -17,5 +17,9 @@
         <script src="https://kit.fontawesome.com/619bfd8718.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <main>
+            <section>
+            </section>
+        </main>
     </body>
 </html>
