@@ -18,7 +18,7 @@
     </head>
     <body>
         <main>
-            <section>
+            <section class="blog-page-introduction">
                 <h1>
                 </h1>
             </section>
