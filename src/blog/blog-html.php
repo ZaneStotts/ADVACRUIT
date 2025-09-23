@@ -20,6 +20,7 @@
         <main>
             <section class="blog-page-introduction">
                 <h1>
+                    Blog
                 </h1>
             </section>
         </main>
