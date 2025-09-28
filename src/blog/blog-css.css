@@ -2,4 +2,5 @@
     color: var(--dark-accent-color);
     font-family: "Barlow Condensed, Tahoma";
     font-size: 5rem;
+    text-align: center;
 }
