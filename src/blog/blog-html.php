@@ -22,7 +22,7 @@
                 <h1>
                 </h1>
             </section>
-            <section>
+            <section class="blog-page-articles-list">
             </section>
         </main>
     </body>
