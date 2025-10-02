@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
+    <head>
         <meta charset="utf-8" lang="en">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Main | Advacruit</title>
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="../Advacruit_favicon.png">
-        <!-- Link to CSS file -->
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="/main/main-css.css">
+        <!-- Link to CSS files -->
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="main-css.css">
+        <link rel="stylesheet" href="../header/header-css.css">
+        <link rel="stylesheet" href="../footer/footer-css.css">
+        <script src="src/header/header-js.php"></script>
         <!-- Link to Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -240,6 +243,6 @@
                 </div>
             </section>
         </main>
-    <script src="main/main-js.php"></script>
+        <script src="main-js.php"></script>
     </body>
 </html>

@@ -7,7 +7,7 @@
         <title>Advacruit footer</title>
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="../Advacruit_favicon.png">
-        <!-- Link to CSS file -->
+        <!-- Link to CSS files -->
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="/footer/footer-css.css">
         <!-- Link to Google Fonts -->

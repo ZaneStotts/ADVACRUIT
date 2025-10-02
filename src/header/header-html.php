@@ -6,9 +6,10 @@
         <title>Advacruit header</title>
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="../Advacruit_favicon.png">
-        <!-- Link to CSS file -->
+        <!-- Link to CSS files -->
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="/header/header-css.css">
+        <link rel="stylesheet" href="/main/main-css.css">
         <!-- Link to Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,7 @@
         <header>
             <nav>
                 <div class="header-icon-logo-container">
-                    <a id="header-icon-logo" href="index.php" title="Home">
+                    <a id="header-icon-logo" href="../main/main-html.php" title="Home">
                         <i class="fa-solid fa-handshake fa-2xl"></i>
                     </a>
                     <h6>
@@ -55,7 +56,7 @@
                             </a>
                         </li>
                         <li title="Blog">
-                            <a href="">
+                            <a href="../blog/blog-html.php">
                                 Blog
                             </a>
                         </li>
