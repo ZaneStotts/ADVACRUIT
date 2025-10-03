@@ -21,7 +21,7 @@
         <header>
             <nav>
                 <div class="header-icon-logo-container">
-                    <a id="header-icon-logo" href="../main/main-html.php" title="Home">
+                    <a id="header-icon-logo" href="../index.php" title="Home">
                         <i class="fa-solid fa-handshake fa-2xl"></i>
                     </a>
                     <h6>
