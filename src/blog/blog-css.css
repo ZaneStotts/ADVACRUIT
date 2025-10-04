@@ -2,9 +2,21 @@
 Blog styles
 */
 
+.blog-page-introduction {
+    align-items: center;
+    background-image: url("3Keyboard.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 600px;
+    padding: 76px 0 0 0;
+    margin: auto;
+    max-width: 2000px;
+}
+
 .blog-page-introduction h1 {
     color: var(--dark-accent-color);
-    font-family: "Barlow Condensed, Tahoma";
+    font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
     text-align: center;
 }
@@ -12,3 +24,15 @@ Blog styles
 /*
 Blog media queries (width)
 */
+
+@media screen and (max-width: 1700px) {
+    .blog-page-introduction {
+        background-image: url("2Keyboard.png");
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .blog-page-introduction {
+        background-image: url("1Keyboard.png");
+    }
+}
