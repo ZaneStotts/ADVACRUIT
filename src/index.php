@@ -30,5 +30,6 @@ if (isset($_SERVER['HTTP_X_FORWARDED_URL']) && strpos($_SERVER['HTTP_X_FORWARDED
       include "main/main-html.php";
       include "footer/footer-html.php";
     ?>
+    <script src="main/main-js.php"></script>
   </body>
 </html>

@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="main-css.css">
         <link rel="stylesheet" href="../header/header-css.css">
         <link rel="stylesheet" href="../footer/footer-css.css">
-        <script src="src/header/header-js.php"></script>
+        <script src="../header/header-js.php"></script>
         <!-- Link to Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
