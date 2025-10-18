@@ -24,12 +24,33 @@
             include "../header/header-html.php";
         ?>
         <main>
-            <section class="blog-page-introduction">
+            <section class="blog-page-heading">
                 <h1>
                     Blog
                 </h1>
             </section>
-            <section class="blog-page-articles-list">
+            <section class="blog-page-articles">
+                <div class="article-title">
+                    <h2>
+                        What happened to entry level jobs?
+                    </h2>
+                    <h3 class="article-subtitle">
+                        Take a closer look at how the job searching process has changed in modern times and why junior roles are disappearing.
+                    </h3>
+                    <h4>
+                        Read time: <span class="font-weight-normal">13 minutes</span>
+                    </h4>
+                    <h4 id="author">
+                        Author: <span class="font-weight-normal">Zane Stotts</span>
+                    </h4>
+                    <h4>
+                        Date: <span class="font-weight-normal">October 2, 2025</span>
+                    </h4>
+                </div>
+                <article>
+                    The current hiring environment is incredibly bleak. There is not another way to describe it.
+                    <br>
+                </article>
             </section>
         </main>
         <?php

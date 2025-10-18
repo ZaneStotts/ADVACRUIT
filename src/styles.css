@@ -17,5 +17,5 @@ Universal styles across all pages
 }
 
 body {
-    background-color: var(--text-color);
+    background-color: var(--background-color);
 }
