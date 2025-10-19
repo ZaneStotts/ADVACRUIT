@@ -37,7 +37,7 @@
                     <h3 class="article-subtitle">
                         Take a closer look at how the job searching process has changed in modern times and why junior roles are disappearing.
                     </h3>
-                    <div class="article-information">
+                    <div class="article-information-lists">
                         <ul class="article-information-icon-list">
                             <li>
                                 <i class="fa-solid fa-user"></i>
@@ -168,28 +168,159 @@
                     <p>
                         With nearly all the steps of job applications now being handled through online boards, an additional struggle has emerged. Ghost jobs are positions posted by employers with no intention of hiring. And there are way more of them than people might think.
                     </p>
+                        A study<sup><a href="https://www.myperfectresume.com/career-center/jobs/search/recruiting-trends">7</a></sup> from 2024 admitted eighty-one percent of recruiters advertise these fake roles, as reported by MyPerfectResume. Further research<sup><a href="https://www.thehrdigest.com/the-rise-of-ghost-jobs-is-leaving-job-seekers-frustrated-and-disappointed/">8</a></sup> from The HR Digest revealed forty-eight percent of human resources staff create ghost jobs. According to another poll<sup><a href="https://www.resumebuilder.com/3-in-10-companies-currently-have-fake-job-posting-listed/">9</a></sup> completed by ResumeBuilder shared even more evidence of this plague on job seekers by discovering forty percent of businesses posted fake listings in 2024. An article<sup><a href="https://www.entrepreneur.com/business-news/one-quarter-of-jobs-posted-online-are-fake-ghost-jobs-study/496683">10</a></sup> from Entrepreneur also showed data explaining over twenty-seven percent of American job openings on LinkedIn are not real.
                     <p>
+                        Reasons why employers feel the need to make ghost jobs varies. While still being totally misleading, they can be a helpful method to collect resumes and build talent pools for recruiters. It also can give the impression a company is flourishing from the outside. 
                     </p>
                     <p>
+                        On a darker note, it's speculated some hiring managers use ghost jobs as a way to deceive overworked and exhausted teams into believing they will receive future relief. Or even to imbue a fearful mental state in current staff by reminding them how easily they could be replaced. Some businesses will go as far to perform interviews, the candidate unknowingly participating in a game impossible to win.
                     </p>
                     <p>
-                    </p>
-                    <p>
+                        The acceleration of these fake positions is a source of much despair for modern job seekers, especially those at entry level, since it means a large amount of effort in applying is entirely wasted. Because there is no proven manner to spot a ghost job, it has now become just another obstacle to navigate in the treacherous job searching environment.
                     </p>
                     <h4>
                         #5. Economic uncertainty
                     </h4>
                     <p>
+                        Hiring rates in 2025 have been significantly suppressed, which is mostly attributed to the recent installation of a new American president and his introduction of heavy tariffs. The current economy has been tossed into an era of deep unease and hesitancy for employers, affecting small companies the hardest.
                     </p>
                     <p>
+                        New data released by the US Department of Labor reported a sharp drop in job openings—a loss of 300,000 in just July and August alone, as summarized in a publication<sup><a href="https://www.reuters.com/business/us-labor-market-softening-job-openings-hit-10-month-low-hiring-remains-tepid-2025-09-03/">11</a></sup> from Reuters. Industries facing the largest deficits were healthcare and retail, which had previously been leading areas of employment. Other afflicted fields included arts, entertainment, and professional services.
                     </p>
                     <p>
+                        But there was some growth witnessed in other sectors, mostly construction and manufacturing. This data shows there could be a prospective trend in blue collar careers for entry level job seekers, since a majority of roles ask for little to no previous skills or experience.
                     </p>
                     <p>
+                        The overall future of the labor market still appears pretty unfortunate at the moment, with layoffs occurring and hiring demands stagnating. An article<sup><a href="https://www.cnbc.com/2025/09/24/why-workers-feel-stuck.html">12</a></sup> from CNBC brought attention to the issue of employees now "job hugging" as opposed to "job hopping." This phenomenon combined with the decline of hiring rates is priming the American job market to soon be completely frozen, with less openings than job seekers, and basically locking out any entry level candidates wanting to break into the work force.
                     </p>
                     <h4>
                         #6. Ineffective hiring practices
                     </h4>
+                    <p>
+                        How businesses hire new staff—if they're truly hiring at all—has changed drastically in modern times and usually not for the better. Professional decorum and the concept of treating potential candidates with respect have both been placed on the back burner since employees are viewed as easily expendable. Hiring managers know there is a large pool of hungry job seekers who will take a bite at anything.
+                    </p>
+                    <p>
+                        Because companies are able to be extremely picky, they have greatly restricted the willingness to take chances on candidates, relating back to the first topic. This means highly skilled and quick learning job seekers are still instantly disqualified simply because past experience may not align one hundred percent with the role they want. So unless a candidate applies for the same exact job they're already doing, the possibility of hearing back from an employer is notably diminished. This attitude is another contributing factor to the "job hugging" seen today and also leaves employed job seekers, who may want to switch career paths, stuck in an unfitting and miserable position.
+                    </p>
+                    <p>
+                        There is now a strong reliance on AI and applicant tracking systems to make work easier for recruiters, due to increasing application volumes. But it also means a huge portion of applications are automatically filtered out if particular words are not detected or other arbitrary criteria is not met, no matter if the job seeker meets every requirement. Even if a candidate is invited for an interview, there is still a high likelihood human eyes have yet to glance at the resume.
+                    </p>
+                    <p>
+                        I've had a sad number of occasions where I received rejection emails for a position almost immediately after submitting the application, despite feeling like I would have been a competent and knowledgeable candidate. But for a substantial amount of applications, most employers cannot even be bothered to send out automated notices, leaving my resume tragically trapped in ATS purgatory.
+                    </p>
+                    <p>
+                        Dragging out the interview process is another test of patience for applicants. A viral post<sup><a href="https://www.reddit.com/r/recruitinghell/comments/1ndd0fe/im_on_my_third_interview_for_burger_king/">13</a></sup> on Reddit recounts the story of a candidate who was required to attend three rounds of interviewing for Burger King. Fast food roles, once championed as entry level positions for young job seekers, are now screening candidates in the same way a senior engineer would be. Other unlucky job seekers are being put through multiple interview rounds for junior executive or tech roles, up to seven and beyond. The frustrating process has earned the nickname "recruiting hell"<sup><a href="https://www.reddit.com/r/recruitinghell/">14</a></sup> by social media users.
+                    </p>
+                    <p>
+                        These exasperating and sometimes pointless hiring methods inspire despair and low morale in modern job seekers, myself suffering from the same emotions. HR staff is often unclear and inconsistent with communication, causing some candidates to withdraw entirely. Finding new work now means subjecting oneself to meaningless personality tests, completing unpaid assessments, or some other type of silly ritual in order to get noticed by a company. The system is undeniably broken. But how is it the fault of job seekers?
+                    </p>
+                    <h4>
+                        Conclusion
+                    </h4>
+                    <p>
+                        So where does this leave me? Where does it leave everyone else facing this fight?
+                    </p>
+                    <p>
+                        More than likely, we'll be found attaching our resume and then manually filling out the same information all over again on an employer's online career site in the hopes somebody decent will see it, but knowing they won't. Praying for the next job post to finally be the one to break the cycle, only to receive the rejection email in six days—if at all. "Unfortunately, we have decided to move forward with other candidates." And then watching the same role be reposted a week later.
+                    </p>
+                    <p>
+                        Entry level jobs are becoming a luxury. Getting a new job equivalent to winning the lottery. Hiring seems to happen at random, contingent on connections, luck, and timing instead of based on merit, skills, and qualifications. And now being laid off feels like a constant threat looming in the distance.
+                    </p>
+                    <p>
+                        My dreams of once being a web developer feel so innocent and childish. Between the intense competition of the industry, mass migration of American opportunities to India, and growing dependence on AI, the chance of me ever getting hired in the field is essentially none. I am still learning to how to be defeated with dignity.
+                    </p>
+                    <p>
+                        I despise the idea of having to settle for my career but I don't have a choice in the matter. Along with the crowd of job seekers, I will have to take anything I can get in order to survive.
+                    </p>
+                    <h4>
+                        Sources
+                    </h4>
+                    <ul class="article-sources-list">
+                        <li>
+                            <b>
+                                1.
+                            </b>
+                            https://www.forbes.com/sites/jackkelly/2024/10/15/the-globalization-and-offshoring-of-us-jobs-have-hit-americans-hard/
+                        </li>
+                        <li>
+                            <b>
+                                2.
+                            </b>
+                            https://techcrunch.com/2025/05/15/programmers-bore-the-brunt-of-microsofts-layoffs-in-its-home-state-as-ai-writes-up-to-30-of-its-code/
+                        </li>
+                        <li>
+                            <b>
+                                3.
+                            </b>
+                            https://www.hrgrapevine.com/us/content/article/2024-08-08-dell-lays-off-12500-employees-to-become-leaner-in-shift-toward-ai?utm_source=search-list&utm_medium=search&utm_campaign=layoffs
+                        </li>
+                        <li>
+                            <b>
+                                4.
+                            </b>
+                            https://fortune.com/2024/10/30/googles-code-ai-sundar-pichai/
+                        </li>
+                        <li>
+                            <b>
+                                5.
+                            </b>
+                            https://tech.co/news/entry-level-roles-at-risk-due-to-ai-study
+                        </li>
+                        <li>
+                            <b>
+                                6.
+                            </b>
+                            https://fortune.com/2025/05/25/ai-entry-level-jobs-gen-z-careers-young-workers-linkedin/
+                        </li>
+                        <li>
+                            <b>
+                                7.
+                            </b>
+                            https://www.myperfectresume.com/career-center/jobs/search/recruiting-trends
+                        </li>
+                        <li>
+                            <b>
+                                8.
+                            </b>
+                            https://www.thehrdigest.com/the-rise-of-ghost-jobs-is-leaving-job-seekers-frustrated-and-disappointed/
+                        </li>
+                        <li>
+                            <b>
+                                9.
+                            </b>
+                            https://www.resumebuilder.com/3-in-10-companies-currently-have-fake-job-posting-listed/
+                        </li>
+                        <li>
+                            <b>
+                                10.
+                            </b>
+                            https://www.entrepreneur.com/business-news/one-quarter-of-jobs-posted-online-are-fake-ghost-jobs-study/496683
+                        </li>
+                        <li>
+                            <b>
+                                11.
+                            </b>
+                            https://www.reuters.com/business/us-labor-market-softening-job-openings-hit-10-month-low-hiring-remains-tepid-2025-09-03/
+                        </li>
+                        <li>
+                            <b>
+                                12.
+                            </b>
+                            https://www.cnbc.com/2025/09/24/why-workers-feel-stuck.html
+                        </li>
+                        <li>
+                            <b>
+                                13.
+                            </b>
+                            https://www.reddit.com/r/recruitinghell/comments/1ndd0fe/im_on_my_third_interview_for_burger_king/
+                        </li>
+                        <li>
+                            <b>
+                                14.
+                            </b>
+                            https://www.reddit.com/r/recruitinghell/
+                        </li>
+                    </ul>
                 </article>
             </section>
         </main>
