@@ -25,6 +25,13 @@ Blog styles
     max-width: 1400px;
 }
 
+.article-featured {
+    color: var(--light-accent-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 2rem;
+    padding: 40px 40px 0 40px;
+}
+
 .article-title {
     padding: 40px 40px 40px 40px;
 }
@@ -66,8 +73,15 @@ Blog styles
     padding: 5px 0 5px 0;
 }
 
+.blog-page-articles hr {
+    background-color: var(--light-accent-color);
+    border-style: none;
+    height: 3px;
+    margin: 0 40px 0 40px;
+    max-width: 1320px;
+}
+
 .blog-page-articles article {
-    border-top: 3px solid var(--light-accent-color);
     color: var(--dark-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 1.5rem;
@@ -83,27 +97,7 @@ Blog styles
     padding: 30px 0 30px 0;
 }
 
-.blog-page-articles sup {
-    font-size: 1rem;
-}
-
 .blog-page-articles a {
-    color: var(--dark-accent-color);
-    text-decoration: none;
-}
-
-.article-sources-list {
-    color: var(--main-color);
-    font-size: 1.2rem;
-    list-style-type: none;
-}
-
-.article-sources-list li {
-    padding: 5px 0 5px 0;
-    word-wrap: break-word;
-}
-
-.article-sources-list b {
     color: var(--dark-accent-color);
 }
 
