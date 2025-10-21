@@ -73,6 +73,9 @@
                                 </b>
                                  13 minutes
                             </li>
+                            <li>
+                                Download PDF
+                            </li>
                         </ul>
                     </div>
                 </div>
