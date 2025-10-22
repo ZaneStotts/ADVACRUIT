@@ -73,10 +73,41 @@
                                 </b>
                                  13 minutes
                             </li>
-                            <li>
-                                Download PDF
-                            </li>
                         </ul>
+                        <div class="article-share">
+                            <ul class="article-share-icon-list">
+                                <li>
+                                    <a>
+                                        <i class="fa-brands fa-square-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class="fa-brands fa-square-reddit"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class="fa-brands fa-square-threads"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class="fa-brands fa-square-x-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <hr>
@@ -236,7 +267,7 @@
                         Entry level jobs are becoming a luxury. Getting a new job equivalent to winning the lottery. Hiring seems to happen at random, contingent on connections, luck, and timing instead of based on merit, skills, and qualifications. And now being laid off feels like a constant threat looming in the distance.
                     </p>
                     <p>
-                        My dreams of once being a web developer feel so innocent and childish. Between the intense competition of the industry, mass migration of American opportunities to India, and growing dependence on AI, the chance of me ever getting hired in the field is essentially none. I am still learning to how to be defeated with dignity.
+                        My dreams of once being a web developer feel so innocent and childish. Between the intense competition of the industry, mass migration of American opportunities to India, and growing dependence on AI, the chance of me ever getting hired in the field is essentially none. I am still learning how to be defeated with dignity.
                     </p>
                     <p>
                         I despise the idea of having to settle for my career but I don't have a choice in the matter. Along with the crowd of job seekers, I will have to take anything I can get in order to survive.
