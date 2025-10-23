@@ -75,34 +75,40 @@
                             </li>
                         </ul>
                         <div class="article-share">
+                            <p>
+                                <b>
+                                    Share
+                                </b>
+                                 this article
+                            </p>
                             <ul class="article-share-icon-list">
                                 <li>
-                                    <a>
+                                    <a href="" title="Facebook">
                                         <i class="fa-brands fa-square-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a>
+                                    <a href="" title="Instagram">
                                         <i class="fa-brands fa-square-instagram"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a>
+                                    <a href="" title="LinkedIn">
                                         <i class="fa-brands fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a>
+                                    <a href="" title="Reddit">
                                         <i class="fa-brands fa-square-reddit"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a>
+                                    <a href="" title="Threads">
                                         <i class="fa-brands fa-square-threads"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a>
+                                    <a href="" title="X">
                                         <i class="fa-brands fa-square-x-twitter"></i>
                                     </a>
                                 </li>

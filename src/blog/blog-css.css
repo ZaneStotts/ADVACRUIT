@@ -73,6 +73,42 @@ Blog styles
     padding: 5px 0 5px 0;
 }
 
+.article-share {
+    align-content: flex-end;
+    padding: 0 0 7px 0;
+    width: 220px;
+}
+
+.article-share p {
+    color: var(--main-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 1.2rem;
+}
+
+.article-share-icon-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.article-share-icon-list li {
+    transition: 0.3s;
+}
+
+.article-share-icon-list li a {
+    color: var(--dark-accent-color);
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.article-share-icon-list li:hover {
+    transform: scale(1.2);
+}
+
+.article-share-icon-list li a:hover {
+    color: var(--light-accent-color);
+}
+
 .blog-page-articles hr {
     background-color: var(--light-accent-color);
     border-style: none;
