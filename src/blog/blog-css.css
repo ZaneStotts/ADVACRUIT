@@ -75,6 +75,7 @@ Blog styles
 
 .article-share {
     align-content: flex-end;
+    margin-left: auto;
     padding: 0 0 7px 0;
     width: 220px;
 }
@@ -83,6 +84,7 @@ Blog styles
     color: var(--main-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 1.2rem;
+    line-height: 2;
 }
 
 .article-share-icon-list {
@@ -140,3 +142,7 @@ Blog styles
 /*
 Blog media queries (width)
 */
+
+@media screen and (max-width: 600px) {
+    
+}

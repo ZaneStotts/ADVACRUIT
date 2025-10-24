@@ -76,10 +76,7 @@
                         </ul>
                         <div class="article-share">
                             <p>
-                                <b>
-                                    Share
-                                </b>
-                                 this article
+                                Share this article
                             </p>
                             <ul class="article-share-icon-list">
                                 <li>
@@ -214,7 +211,9 @@
                     <p>
                         With nearly all the steps of job applications now being handled through online boards, an additional struggle has emerged. Ghost jobs are positions posted by employers with no intention of hiring. And there are way more of them than people might think.
                     </p>
+                    <p>
                         A <a href="https://www.myperfectresume.com/career-center/jobs/search/recruiting-trends" target="_blank" title="Open in new tab">study</a> from 2024 admitted eighty-one percent of recruiters advertise these fake roles, as reported by MyPerfectResume. Further <a href="https://www.thehrdigest.com/the-rise-of-ghost-jobs-is-leaving-job-seekers-frustrated-and-disappointed/" target="_blank" title="Open in new tab">research</a> from The HR Digest revealed forty-eight percent of human resources staff create ghost jobs. According to another <a href="https://www.resumebuilder.com/3-in-10-companies-currently-have-fake-job-posting-listed/" target="_blank" title="Open in new tab">poll</a> completed by ResumeBuilder shared even more evidence of this plague on job seekers by discovering forty percent of businesses posted fake listings in 2024. An <a href="https://www.entrepreneur.com/business-news/one-quarter-of-jobs-posted-online-are-fake-ghost-jobs-study/496683" target="_blank" title="Open in new tab">article</a> from Entrepreneur also showed data explaining over twenty-seven percent of American job openings on LinkedIn are not real.
+                    </p>
                     <p>
                         Reasons why employers feel the need to make ghost jobs varies. While still being totally misleading, they can be a helpful method to collect resumes and build talent pools for recruiters. It also can give the impression a company is flourishing from the outside. 
                     </p>
