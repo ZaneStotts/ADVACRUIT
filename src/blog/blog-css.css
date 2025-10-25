@@ -61,7 +61,6 @@ Blog styles
     list-style-type: none;
     margin: 2px 0 0 0;
     padding: 5px 15px 5px 0;
-    text-align: center;
 }
 
 .article-information-text-list {
@@ -144,5 +143,23 @@ Blog media queries (width)
 */
 
 @media screen and (max-width: 600px) {
-    
+    .article-information-lists {
+        flex-wrap: wrap;
+    }
+
+    .article-information-text-list {
+        width: 269px;
+    }
+
+    .article-share {
+        margin-left: 0;
+        padding: 20px 0 0 0;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .article-information-text-list {
+        width: auto;
+    }
 }

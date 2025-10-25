@@ -59,19 +59,19 @@
                                 <b>
                                     Author:
                                 </b>
-                                     Zane Stotts
+                                    Zane Stotts
                             </li>
                             <li>
                                 <b>
                                     Date:
                                 </b>
-                                 October 2, 2025
+                                October 2, 2025
                             </li>
                             <li>
                                 <b>
                                     Read time:
                                 </b>
-                                 13 minutes
+                                13 minutes
                             </li>
                         </ul>
                         <div class="article-share">
