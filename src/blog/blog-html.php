@@ -59,7 +59,7 @@
                                 <b>
                                     Author:
                                 </b>
-                                    Zane Stotts
+                                Zane Stotts
                             </li>
                             <li>
                                 <b>
@@ -277,6 +277,14 @@
                     <p>
                         I despise the idea of having to settle for my career but I don't have a choice in the matter. Along with the crowd of job seekers, I will have to take anything I can get in order to survive.
                     </p>
+                    <div class="article-download">
+                        <i class="fa-solid fa-file-arrow-down"></i>
+                        <p>
+                            <a href="" download title="Click to download">
+                                Download free PDF
+                            </a>
+                        </p>
+                    <div>
                 </article>
             </section>
         </main>

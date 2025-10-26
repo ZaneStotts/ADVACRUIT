@@ -138,6 +138,26 @@ Blog styles
     color: var(--dark-accent-color);
 }
 
+.article-download {
+    align-items: center;
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+
+.article-download i {
+    color: var(--dark-accent-color);
+}
+
+.article-download p {
+    font-size: 1.3rem;
+}
+
+.article-download a {
+    color: var(--main-color);
+    padding: 0 0 0 5px;
+    text-decoration: none;
+}
+
 /*
 Blog media queries (width)
 */
