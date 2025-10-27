@@ -277,6 +277,20 @@
                     <p>
                         I despise the idea of having to settle for my career but I don't have a choice in the matter. Along with the crowd of job seekers, I will have to take anything I can get in order to survive.
                     </p>
+                    <div class="article-author">
+                        <h4>
+                            About the author
+                        </h4>
+                        <aside>
+                            <img src="./Zane_Stotts_portrait.png" alt="Zane Stotts author portrait">
+                            <p>
+                                <b>
+                                    Zane Stotts
+                                </b>
+                                 is the founder of Advacruit and a seasoned job seeker.
+                            </p>
+                        </aside>
+                    </div>
                     <div class="article-download">
                         <i class="fa-solid fa-file-arrow-down"></i>
                         <p>

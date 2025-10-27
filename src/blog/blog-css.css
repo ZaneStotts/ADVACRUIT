@@ -138,6 +138,25 @@ Blog styles
     color: var(--dark-accent-color);
 }
 
+.article-author aside {
+    display: flex;
+}
+
+.article-author img {
+    border: 3px solid var(--main-color);
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.article-author h5 {
+    font-size: 1.2rem;
+}
+
+.article-author p {
+    font-size: 1.2rem;
+}
+
 .article-download {
     align-items: center;
     display: flex;
@@ -155,7 +174,6 @@ Blog styles
 .article-download a {
     color: var(--main-color);
     padding: 0 0 0 5px;
-    text-decoration: none;
 }
 
 /*
