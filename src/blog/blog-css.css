@@ -139,7 +139,9 @@ Blog styles
 }
 
 .article-author aside {
+    align-items: center;
     display: flex;
+    padding: 0 0 40px 0;
 }
 
 .article-author img {
@@ -149,18 +151,15 @@ Blog styles
     width: 100px;
 }
 
-.article-author h5 {
+.article-author aside p {
     font-size: 1.2rem;
-}
-
-.article-author p {
-    font-size: 1.2rem;
+    padding: 0 0 0 40px;
+    max-width: 700px;
 }
 
 .article-download {
     align-items: center;
     display: flex;
-    margin: 20px 0 20px 0;
 }
 
 .article-download i {
