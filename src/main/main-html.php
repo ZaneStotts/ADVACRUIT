@@ -218,8 +218,23 @@
                     <h3>
                         Read our blog.
                     </h3>
+                    <p>
+                        Featured article
+                    </p>
                 </div>
-                <div class="blog-posts-area">
+                <div class="blog-posts-container">
+                    <div class="blog-post-title">
+                        <p>
+                            <b>
+                                What happened to entry level jobs?
+                            </b>
+                        </p>
+                    </div>
+                    <div class="blog-post-subtitle">
+                        <p>
+                            Take a closer look at how the job searching process has changed in modern times and why junior roles are disappearing.
+                        </p>
+                    </div>
                 </div>
             </section>
             <section class="home-page-email-subscription">

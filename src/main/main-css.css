@@ -303,6 +303,34 @@ Main styles
     text-align: center;
 }
 
+.blog-posts-introduction p {
+    color: var(--light-accent-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 1.5rem;
+    padding: 10px 0 20px 0;
+}
+
+.blog-posts-container {
+    transition: 0.3s;
+}
+
+.blog-posts-container:hover {
+    transform: scale(1.02);
+}
+
+.blog-post-title p {
+    color: var(--dark-accent-color);
+    font-family: "Varela Round", Verdana;
+    font-size: 2.5rem;
+}
+
+.blog-post-subtitle p {
+    color: var(--main-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 1.5rem;
+    padding: 
+}
+
 .home-page-email-subscription {
     background-color: var(--main-color);
     margin: auto;
@@ -424,13 +452,6 @@ Main media queries (width)
     .introduction-paragraph {
         padding: 0 0 40px 0;
     }
-
-    /*
-    .learn-more-button {
-        //text-align: left;
-        //width: 100%;
-    }
-    */
 
     .learn-more-button a {
         display: inline-block;

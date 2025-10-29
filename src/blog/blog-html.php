@@ -287,14 +287,14 @@
                                 <b>
                                     Zane Stotts
                                 </b>
-                                 is a seasoned job seeker and founder of Advacruit. His passions are web development and submitting applications. In his free time, he can be found optimizing his resume and browsing online job boards. Visit his <a href="https://www.linkedin.com/in/zane-stotts-6053222a9/" title="Zane Stotts on LinkedIn" target="_blank">LinkedIn</a> profile to learn more.
+                                 is a seasoned job seeker and the founder of Advacruit. His passions are web development and submitting applications. In his free time, he can be found optimizing his resume and browsing online job boards. Visit his <a href="https://www.linkedin.com/in/zane-stotts-6053222a9/" title="Zane Stotts on LinkedIn" target="_blank">LinkedIn</a> profile to learn more.
                             </p>
                         </aside>
                     </div>
                     <div class="article-download">
                         <i class="fa-solid fa-file-arrow-down"></i>
                         <p>
-                            <a href="" download title="Click to download">
+                            <a href="./What_happened_to_entry_level_jobs.pdf" download title="Click to download">
                                 Download free PDF
                             </a>
                         </p>
