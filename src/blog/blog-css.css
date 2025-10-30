@@ -149,6 +149,12 @@ Blog styles
     border-radius: 10px;
     height: 100px;
     width: 100px;
+    transition: 0.3s;
+}
+
+.article-author img:hover {
+    border: 3px solid var(--light-accent-color);
+    transform: scale(1.1);
 }
 
 .article-author aside p {

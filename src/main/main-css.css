@@ -296,6 +296,10 @@ Main styles
     padding: 40px 40px 40px 40px;
 }
 
+.home-page-blog-posts a {
+    text-decoration: none;
+}
+
 .blog-posts-introduction h3 {
     color: var(--dark-accent-color);
     font-family: "Barlow Condensed", Tahoma;
@@ -303,11 +307,18 @@ Main styles
     text-align: center;
 }
 
-.blog-posts-introduction p {
+.blog-posts-featured-article {
     color: var(--light-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 1.5rem;
+    margin: auto;
+    max-width: 700px;
     padding: 10px 0 20px 0;
+}
+
+.blog-posts-link-container {
+    margin: auto;
+    max-width: 700px;
 }
 
 .blog-posts-container {
@@ -315,7 +326,7 @@ Main styles
 }
 
 .blog-posts-container:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .blog-post-title p {
@@ -328,7 +339,29 @@ Main styles
     color: var(--main-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 1.5rem;
-    padding: 
+    padding: 20px 0 20px 0;
+}
+
+.blog-post-information-lists {
+    display: flex;
+}
+
+.blog-post-information-icon-list {
+    color: var(--dark-accent-color);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    list-style-type: none;
+    margin: 2px 0 0 0;
+    padding: 5px 15px 5px 0;
+}
+
+.blog-post-information-text-list {
+    color: var(--main-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    list-style-type: none;
+    padding: 5px 0 5px 0;
 }
 
 .home-page-email-subscription {
@@ -456,6 +489,10 @@ Main media queries (width)
     .learn-more-button a {
         display: inline-block;
         transform-origin: center center;
+    }
+    .blog-posts-featured-article,
+    .blog-posts-link-container {
+        margin: 0;
     }
 }
 

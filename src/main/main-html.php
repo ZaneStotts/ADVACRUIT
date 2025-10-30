@@ -218,23 +218,62 @@
                     <h3>
                         Read our blog.
                     </h3>
-                    <p>
-                        Featured article
-                    </p>
+                    <div class="blog-posts-featured-article">
+                        <p>
+                            Featured article
+                        </p>
+                    </div>
                 </div>
-                <div class="blog-posts-container">
-                    <div class="blog-post-title">
-                        <p>
-                            <b>
-                                What happened to entry level jobs?
-                            </b>
-                        </p>
-                    </div>
-                    <div class="blog-post-subtitle">
-                        <p>
-                            Take a closer look at how the job searching process has changed in modern times and why junior roles are disappearing.
-                        </p>
-                    </div>
+                <div class="blog-posts-link-container">
+                    <a href="https://advacruit.w3spaces.com/blog/blog-html.php" title="Read in new tab" target="_blank">
+                        <div class="blog-posts-container">
+                            <div class="blog-post-title">
+                                <p>
+                                    <b>
+                                        What happened to entry level jobs?
+                                    </b>
+                                </p>
+                            </div>
+                            <div class="blog-post-subtitle">
+                                <p>
+                                    Take a closer look at how the job searching process has changed in modern times and why junior roles are disappearing.
+                                </p>
+                            </div>
+                            <div class="blog-post-information-lists">
+                                <ul class="blog-post-information-icon-list">
+                                    <li>
+                                        <i class="fa-solid fa-user"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-stopwatch"></i>
+                                    </li>
+                                </ul>
+                                <ul class="blog-post-information-text-list">
+                                    <li>
+                                        <b>
+                                            Author:
+                                        </b>
+                                        Zane Stotts
+                                    </li>
+                                    <li>
+                                        <b>
+                                            Date:
+                                        </b>
+                                        October 2, 2025
+                                    </li>
+                                    <li>
+                                        <b>
+                                            Read time:
+                                        </b>
+                                        13 minutes
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </section>
             <section class="home-page-email-subscription">
