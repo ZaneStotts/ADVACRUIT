@@ -163,22 +163,38 @@ Blog styles
     max-width: 700px;
 }
 
-.article-download {
+.article-download a {
     align-items: center;
+    color: var(--main-color);
     display: flex;
+    transform-origin: left center;
+    transition: 0.3s;
+    width: 170px;
+}
+
+.article-download a:hover {
+    color: var(--light-accent-color);
+}
+
+.article-download a:hover i,
+.article-download a:hover p {
+    color: var(--light-accent-color);
+    padding: 10px 7px 10px 0;
+    transform: scale(1.1);
 }
 
 .article-download i {
     color: var(--dark-accent-color);
+    padding: 0 5px 0 0;
+    transform-origin: left center;
+    transition: 0.3s;
 }
 
-.article-download p {
+.article-download a p {
+    font-family: "Barlow Condensed", Tahoma;
     font-size: 1.3rem;
-}
-
-.article-download a {
-    color: var(--main-color);
-    padding: 0 0 0 5px;
+    transform-origin: left center;
+    transition: 0.3s;
 }
 
 /*

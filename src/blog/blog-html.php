@@ -292,12 +292,12 @@
                         </aside>
                     </div>
                     <div class="article-download">
-                        <i class="fa-solid fa-file-arrow-down"></i>
-                        <p>
-                            <a href="./What_happened_to_entry_level_jobs.pdf" download title="Click to download">
+                        <a href="./What_happened_to_entry_level_jobs.pdf" download title="Click to download">
+                            <i class="fa-solid fa-file-arrow-down"></i>
+                            <p>
                                 Download free PDF
-                            </a>
-                        </p>
+                            </p>
+                        </a>
                     <div>
                 </article>
             </section>
