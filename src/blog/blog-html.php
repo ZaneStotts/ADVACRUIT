@@ -287,7 +287,7 @@
                                 <b>
                                     Zane Stotts
                                 </b>
-                                 is a seasoned job seeker and the founder of Advacruit. His passions are web development and submitting applications. In his free time, he can be found optimizing his resume and browsing online job boards. Visit his <a href="https://www.linkedin.com/in/zane-stotts-6053222a9/" title="Zane Stotts on LinkedIn" target="_blank">LinkedIn</a> profile to learn more.
+                                 is a seasoned job seeker and the founder of Advacruit. His passions are web development and submitting applications. In his free time, he can be found optimizing his resume and browsing online job boards. Visit his <a href="https://www.linkedin.com/in/zane-stotts-6053222a9/" target="_blank" title="Zane Stotts on LinkedIn">LinkedIn</a> profile to learn more.
                             </p>
                         </aside>
                     </div>

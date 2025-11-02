@@ -31,7 +31,7 @@
                 <div class="header-links-container" id="header-links">
                     <ul>
                         <li title="About">
-                            <a href="">
+                            <a href="../about/about-html.php">
                                 About
                             </a>
                         </li>

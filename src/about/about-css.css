@@ -1,0 +1,24 @@
+/*
+About styles
+*/
+
+.about-page-heading {
+    background-color: var(--dark-accent-color);
+    align-items: center;
+    margin: auto;
+    max-width: 2000px;
+    padding: 76px 0 0 0;
+}
+
+.about-page-heading h1 {
+    color: var(--background-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 5rem;
+    letter-spacing: 1px;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+}
+
+/*
+About media queries
+*/
