@@ -30,8 +30,26 @@
                 </h1>
             </section>
             <section class="about-page-description">
+                <h2>
+                    Changing how recruiting works.
+                </h2>
+                <div class="description-container">
+                    <p>
+                        We know how difficult it can be to navigate the job market.
+                    </p>
+                    <p>
+                        Our goal is to make it easy. Let us help out with the hard parts. Whether you're a rapidly expanding business needing staff members quickly or just seeking the next step in your career, the Advacruit team is ready to deliver those results.
+                    </p>
+                    <p>
+                    </p>
+                </div>
             </section>
             <section class="about-page-team">
+                <h2>
+                    Meet the team.
+                </h2>
+                <div class="team-container">
+                </div>
             </section>
         </main>
         <?php

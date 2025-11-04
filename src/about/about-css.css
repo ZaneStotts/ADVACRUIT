@@ -19,6 +19,28 @@ About styles
     text-align: center;
 }
 
+.about-page-description {
+    padding: 40px 40px 40px 40px;
+}
+
+.about-page-description h2 {
+    color: var(--dark-accent-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.about-page-team {
+    padding: 40px 40px 40px 40px;
+}
+
+.about-page-team h2 {
+    color: var(--dark-accent-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 5rem;
+    text-align: center;
+}
+
 /*
 About media queries
 */
