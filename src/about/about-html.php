@@ -31,16 +31,20 @@
             </section>
             <section class="about-page-description">
                 <h2>
-                    Changing how recruiting works.
+                    Changing the art of recruitment.
                 </h2>
                 <div class="description-container">
                     <p>
-                        We know how difficult it can be to navigate the job market.
+                        We know how difficult it can be to navigate the job market. Our goal is to make it easy.
                     </p>
                     <p>
-                        Our goal is to make it easy. Let us help out with the hard parts. Whether you're a rapidly expanding business needing staff members quickly or just seeking the next step in your career, the Advacruit team is ready to deliver those results.
+                        Let us help out with the hard parts. Whether you're a rapidly expanding business needing positions filled quickly or simply seeking the next step in your career, Advacruit is ready to deliver those results.
                     </p>
                     <p>
+                        Other recruiting firms have lost the human touch in their staffing processes. But at Advacruit, we realize there is a person behind every application. Which is why each one is individually reviewed by a Advacruit team member.
+                    </p>
+                    <p>
+                        When it comes to finding a new job or needing extra hands to finish a project, your time shouldn't be wasted. Another reason we commit to only advertising real opportunities and accurate salaries.
                     </p>
                 </div>
             </section>

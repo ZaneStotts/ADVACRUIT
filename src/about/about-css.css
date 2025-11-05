@@ -27,7 +27,18 @@ About styles
     color: var(--dark-accent-color);
     font-family: "Barlow Condensed", Tahoma;
     font-size: 5rem;
+    padding: 0 0 20px 0;
     text-align: center;
+}
+
+.description-container {
+    color: var(--dark-accent-color);
+    font-family: "Barlow Condensed", Tahoma;
+    font-size: 2rem;
+}
+
+.description-container p {
+    padding: 20px 0 20px 0;
 }
 
 .about-page-team {
