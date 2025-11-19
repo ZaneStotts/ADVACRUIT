@@ -65,7 +65,7 @@
                     <img src="./Zane_Stotts_portrait_2_.png" alt="Zane Stotts founder portrait">
                     <div class="team-member-title-container">
                         <h3>
-                            Founder
+                            Founder & CEO
                         </h3>
                         <p>
                             Zane Stotts
