@@ -119,7 +119,7 @@
                     </h4>
                 </div>
                 <div class="learn-more-button">
-                    <a href="" title="About"> <!-- Add link here later -->
+                    <a href="../about/about-html.php" title="About">
                         Learn More
                     </a>
                 </div>

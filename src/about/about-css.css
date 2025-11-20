@@ -91,5 +91,19 @@ About styles
 }
 
 /*
-About media queries
+About media queries (width)
 */
+
+@media screen and (max-width: 800px) {
+    .about-page-description h2,
+    .about-page-team h2 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-page-description h2,
+    .about-page-team h2 {
+        font-size: 3rem;
+    }
+}
