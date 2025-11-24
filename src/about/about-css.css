@@ -101,9 +101,43 @@ About media queries (width)
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
+    .about-page-heading h1 {
+        font-size: 4rem;
+        padding: 30px 30px 30px 30px;
+    }
+
+    .about-page-description,
+    .about-page-team {
+        padding: 30px 30px 30px 30px;
+    }
+
     .about-page-description h2,
     .about-page-team h2 {
         font-size: 3rem;
+    }
+
+    .description-container {
+        font-size: 1.5rem;
+    }
+
+    .description-container p {
+        padding: 15px 0 15px 0;
+    }
+
+    .team-container img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .team-member-title-container h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .team-container img {
+        height: 150px;
+        width: 150px;
     }
 }
