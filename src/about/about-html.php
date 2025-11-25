@@ -65,12 +65,28 @@
                     <img src="./Zane_Stotts_portrait_2_.png" alt="Zane Stotts founder portrait">
                     <div class="team-member-title-container">
                         <h3>
-                            Founder & CEO
+                            Zane Stotts
                         </h3>
                         <p>
-                            Zane Stotts
+                            Founder
                         </p>
                     </div>
+                </div>
+            </section>
+            <section class="about-page-story-behind">
+                <h2>
+                    The story behind Advacruit.
+                </h2>
+                <div class="story-behind-container">
+                    <p>
+                        Zane knows what it feels like to be on the other side.
+                    </p>
+                    <p>
+                        The struggle of crafting resumes, writing cover letters, and submitting applications only to be ignored or rejected. And then having to begin the cycle all over again.
+                    </p>
+                    <p>
+                        Modern day hiring needed to be changed.
+                    </p>
                 </div>
             </section>
         </main>
