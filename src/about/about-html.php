@@ -82,10 +82,13 @@
                         Zane knows what it feels like to be on the other side.
                     </p>
                     <p>
-                        The struggle of crafting resumes, writing cover letters, and submitting applications only to be ignored or rejected. And then having to begin the cycle all over again.
+                        The struggle of crafting resumes, writing cover letters, and submitting applications only to be completely ignored or rejected by an automated email. And then having to begin the cycle all over again.
                     </p>
                     <p>
-                        Modern day hiring needed to be changed.
+                        In an attempt to become easier, modern day hiring instead turned itself into an excessively complicated process for both parties—failing candidates and frustrating employers.
+                    </p>
+                    <p>
+                        Zane saw the issues clearly and knew change was needed. Advacruit was his solution. An organization founded on different values.
                     </p>
                 </div>
             </section>
