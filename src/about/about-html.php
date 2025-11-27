@@ -85,10 +85,16 @@
                         The struggle of crafting resumes, writing cover letters, and submitting applications only to be completely ignored or rejected by an automated email. And then having to begin the cycle all over again.
                     </p>
                     <p>
-                        In an attempt to become easier, modern day hiring instead turned itself into an excessively complicated process for both parties—failing candidates and frustrating employers.
+                        For businesses, it was the opposite side of the same coin. Sifting through an overwhelming number of applications, trying to find relevant ones, conducting interviews, all while unfinished tasks pile up with nobody in the position to get it done.
                     </p>
                     <p>
-                        Zane saw the issues clearly and knew change was needed. Advacruit was his solution. An organization founded on different values.
+                        In an attempt to become easier, modern day hiring instead turned itself into an excessively complicated process for everybody involved—failing both candidates and employers.
+                    </p>
+                    <p>
+                        Zane personally experienced these issues himself and knew change was needed. Advacruit was his solution. An organization founded on genuine values with the ultimate intention of filling in the recruitment gap by connecting businesses with incredible talent.
+                    </p>
+                    <p>
+                        Advacruit is truly different because it wants to see both parties be successful. Providing ambitious candidates with the opportunities they need to grow their career and simultaneously benefitting companies by meeting their staffing needs through an expedited enrollment practice.
                     </p>
                 </div>
             </section>
