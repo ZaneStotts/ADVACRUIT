@@ -85,16 +85,19 @@
                         The struggle of crafting resumes, writing cover letters, and submitting applications only to be completely ignored or rejected by an automated email. And then having to begin the cycle all over again.
                     </p>
                     <p>
-                        For businesses, it was the opposite side of the same coin. Sifting through an overwhelming number of applications, trying to find relevant ones, conducting interviews, all while unfinished tasks pile up with nobody in the position to get it done.
+                        For businesses, it usually becomes another type of battle. Sifting through an overwhelming number of resumes, trying to find the most relevant ones, contacting applicants, and conducting interviews. All while unfinished tasks pile up with nobody in the position to get it done.
                     </p>
                     <p>
                         In an attempt to become easier, modern day hiring instead turned itself into an excessively complicated process for everybody involved—failing both candidates and employers.
                     </p>
                     <p>
-                        Zane personally experienced these issues himself and knew change was needed. Advacruit was his solution. An organization founded on genuine values with the ultimate intention of filling in the recruitment gap by connecting businesses with incredible talent.
+                        Zane personally experienced these issues himself and knew change was needed. Advacruit was his solution. An organization founded on <strong>genuine</strong> values with the ultimate intention of filling in the recruitment gap by introducing incredible talent with growing companies.
                     </p>
                     <p>
-                        Advacruit is truly different because it wants to see both parties be successful. Providing ambitious candidates with the opportunities they need to grow their career and simultaneously benefitting companies by meeting their staffing needs through an expedited enrollment practice.
+                        His answer to these problems was not to add more layers to them, but to ultimately simplify the whole practice. Strip it down to what it should have originally been about. Which is how Zane thought of our slogan "Advocating connections and advancing careers."
+                    </p>
+                    <p>
+                        Advacruit works to make those words come true everyday. It truly is different because our team wants to see both parties be successful. Providing ambitious candidates with the opportunities they need to grow their career and simultaneously benefitting companies by meeting their staffing needs through an expedited enrollment process.
                     </p>
                 </div>
             </section>
