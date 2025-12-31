@@ -75,16 +75,16 @@
                         Connect
                     </h5>
                     <div class="social-links-icons">
-                        <a href="" target="_blank" title="LinkedIn">
+                        <a href="" target="_blank" title="LinkedIn" rel="noopener nonreferrer">
                             <i class="fa-brands fa-linkedin fa-xl"></i>
                         </a>
-                        <a href="" target="_blank" title="Threads">
+                        <a href="" target="_blank" title="Threads" rel="noopener nonreferrer">
                             <i class="fa-brands fa-square-threads fa-xl"></i>
                         </a>
-                        <a href="" target="_blank" title="Instagram">
+                        <a href="" target="_blank" title="Instagram" rel="noopener nonreferrer">
                             <i class="fa-brands fa-square-instagram fa-xl"></i>
                         </a>
-                        <a href="" target="_blank" title="X">
+                        <a href="" target="_blank" title="X" rel="noopener nonreferrer">
                             <i class="fa-brands fa-square-x-twitter fa-xl"></i>
                         </a>
                     </div>
@@ -93,7 +93,7 @@
             <div class="footer-copyright-container">
                 <ul class="copyright-list">
                     <li>
-                        <a>
+                        <a href="" target="_blank">
                             Terms & Conditions
                         </a>
                     </li>
@@ -101,7 +101,7 @@
                         |
                     </li>
                     <li>
-                        <a>
+                        <a href="" target="_blank">
                             Privacy
                         </a>
                     </li>
@@ -109,7 +109,7 @@
                         |
                     </li>
                     <li>
-                        <a>
+                        <a href="" target="_blank">
                             EEO & Diversity
                         </a>
                     </li>
