@@ -158,7 +158,7 @@
                         Companies don't want to invest in their employees any longer. Teaching a new hire the correct approaches in a situation or how to excel in the position is now viewed as a disadvantage since it means spending time, money, and effort. Why provide support for staff when it's not really necessary?
                     </p>
                     <p>
-                        By eliminating the expense of training, businesses believe they will generate more revenue. Which might prove to be true in the short term, but can cause dangerous problems in the future. Placing heavier burdens on teams and straining resources to save dollars for the current quarter is not a sustainable solution. It risks manufacturing a product of lesser quality, resentful employees, alienating consumers, and a potentially tarnished reputation.
+                        By eliminating the expense of training, businesses believe they will generate more profit. Which might prove to be true in the short term, but can cause dangerous problems in the future. Placing heavier burdens on teams and straining resources to save dollars for the current quarter is not a sustainable solution. It risks manufacturing a product of lesser quality, resentful employees, alienating consumers, and a potentially tarnished reputation.
                     </p>
                     <p>
                         Because of this recent trend, most employers are only focused on highly experienced applicants but are still unwilling to pay fair wages for their knowledgeable credentials. As job seekers grow increasingly desperate, companies have the ability to present lower and lower compensation rates, knowing the candidate will not have many options.
