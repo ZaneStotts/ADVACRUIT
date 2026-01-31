@@ -115,7 +115,7 @@
                     </li>
                 </ul>
                 <p>
-                    © 2025 Advacruit. All rights reserved.
+                    © 2026 Advacruit. All rights reserved.
                 </p>
             </div>
         </footer>
